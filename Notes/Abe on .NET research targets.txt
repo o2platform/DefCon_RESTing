@@ -1,0 +1,24 @@
+1.  By default XML Entity Expansion is enabled when passing XML to be mashalled to object parameter types of Controller methods.  So all Web API methods are vulnerable to XXE external xml entity injection attacks.
+
+The sample app in the article: "Build Truly RESTful API an Website using Same ASP.NET MVC Code" http://www.codeproject.com/Articles/233572/Build-truly-RESTful-API-and-website-using-same-ASP has a  XXE vulnerability in it.  I reported this to MS over 9 months ago and do not know what the status is.
+
+2.  Also many of the Web API objects which are exposed are typically the EF or ORM objects directly.  Because microsoft allows you to nest xml entities when saving and EF object you could theoretically traverse all of the relation objects.
+
+So if you are updating an Order object and it has a relation to a Customer object which has a relation to the Profile/User table.  You should be able to insert an additional user/profile table which can be used to log in as admin.  The alternative is to update an alternate user/profile when updating the Order.  All of this would be done through XML.
+
+This is another form of the parameter auto binding vulnerability you found in 2008 but this time it is XML and JSON instead of request parameters and the predisposition to directly bind into persisted model objects is greater because many of the REST guides and articles explain REST from a CRUD model.  The CRUD model leads developers to view REST APIs as a direct interface to their model objects.
+
+The details are in the articles:
+
+Building an ASP.NET MVC4 Application with EF and WebAPI by Jonathan Creamer
+Implementing a WCF Service with Entity Framwork by Mike Liu
+Building and consuming REST services with ASP.NET Web API using MediaTypeFormatter and OData support by Robbin Cremers.  He also wrote, "WCF REST service with ODATA and Entity Framework with client context, custom operations, and operation interceptors"
+
+3.  Attacking REST APIs like ODATA through HTTP Parameter Pollution.  I looked the McAfee's "A Pentester's Guide to Hacking OData".  I did not see any reference to attacking the REST URLs themselves by using Query String options such as $expand (supposedly you can use this to join to other tables), Custom Query Options, Service Operation Parameters, and anything else you can highlight. 
+
+4.  Other problems you can find with MS REST APIs.
+
+
+I am going on vacation on Monday but now will be working on this instead of relaxing.  I am going to set up a throw away account where email from here forwards to so you will be seeing emails from another account.  Well every silver lining has a dark cloud (or something like that).
+
+I am really excited about working with you and presenting at Defcon..
