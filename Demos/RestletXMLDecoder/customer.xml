@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_21" class="java.beans.XMLDecoder">
+ <object class="Customer" id="Customer0">
+  <void class="Customer" method="getField">
+   <string>name</string>
+   <void method="set">
+    <object idref="Customer0"/>
+    <string>Munoz</string>
+   </void>
+  </void>
+  <void class="Customer" method="getField">
+   <string>firstName</string>
+   <void method="set">
+    <object idref="Customer0"/>
+    <string>Alvaro</string>
+   </void>
+  </void>
+ </object>
+</java>

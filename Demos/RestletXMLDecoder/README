@@ -1,0 +1,7 @@
+javac -cp ./lib/org.restlet.jar:./lib/groovy-all-1.8.9.jar  *java
+1st terminal: java -cp ./lib/org.restlet.jar:./lib/groovy-all-1.8.9.jar:. ServerRestlets
+2nd terminal: java -cp ./lib/org.restlet.jar:. ClientRestlet
+3rd terminal: 
+	curl -X PUT -u scott:tiger --header "content-type: application/x-java-serialized-object+xml" --data @customer.xml "http://localhost:8182/customer"
+	curl -X PUT -u scott:tiger --header "content-type: application/x-java-serialized-object+xml" --data @customer-xee.xml "http://localhost:8182/customer"
+	curl -X PUT -u scott:tiger --header "content-type: application/x-java-serialized-object+xml" --data @customer-rce.xml "http://localhost:8182/customer"
