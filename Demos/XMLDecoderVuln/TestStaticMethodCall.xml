@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_17" class="java.beans.XMLDecoder">
+ <object class="com.company.RuntimeUtil">
+  <void method="anotherExecute">
+    <string>c:\\Windows\\System32\\calc.exe</string>
+  </void>
+ </object>
+</java>
