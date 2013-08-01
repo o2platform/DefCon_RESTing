@@ -11,12 +11,45 @@
     <file path="/ContactController.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365938386668" ignored="false" />
     <file path="$PROJECT_DIR$/../StrutsAwareness/StrutsAware.iml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365440512648" ignored="false" />
     <file path="/persistence.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365938290638" ignored="false" />
-    <file path="/exploit.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1367920390347" ignored="false" />
+    <file path="/exploit.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375313193778" ignored="false" />
     <file path="/oldexploit.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365959131114" ignored="false" />
-    <file path="/fragment.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1367918324870" ignored="false" />
-    <file path="/Dummy.txt" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1367918324870" ignored="false" />
+    <file path="/fragment.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375339327659" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375338562610" ignored="false" />
     <file path="/payload.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1367919570081" ignored="false" />
     <file path="/contact.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1367920727563" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/Test.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375316694437" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/Main.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375318579196" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/.idea/workspace.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375321686632" ignored="false" />
+    <file path="/Main.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375318616778" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/PocUsingBytes.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375322289674" ignored="false" />
+    <file path="/PocUsingBytes.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375321856071" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/MainOriginal.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375318616778" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/PocUsingBytes_Simple_Version.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375318717326" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/PocUsingBytes_Open_Notepad.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375319530660" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/PocUsingBytes_Method_Invoke_Current_Class.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375320625139" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/PocUsingBytes_ExecuteFromXml.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375320927544" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/Test2.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375322572893" ignored="false" />
+    <file path="/Test2.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375330191172" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/ViaServlet.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375322724830" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/RestfulTeams.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375322834175" ignored="false" />
+    <file path="/RestfulTeams.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375322831567" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/defcon/poc/rest/Team.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375323006300" ignored="false" />
+    <file path="$PROJECT_DIR$/../XmlDecode_ViaRest/web/index.jsp" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375324440097" ignored="false" />
+    <file path="/index.jsp" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375324440097" ignored="false" />
+    <file path="$PROJECT_DIR$/../XmlDecode_ViaRest/src/defcon/poc/rest/WSTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375324950358" ignored="false" />
+    <file path="/WSTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375324950358" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/web/WEB-INF/web.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375327010093" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/src/example/HelloWorldClient.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375327157958" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/web/WEB-INF/sun-jaxws.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375327166254" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/.idea/misc.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375327543736" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/.idea/workspace.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375337560345" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/src/FibRestlet.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375328636932" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/src/ch04/team/RestfulTeams.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375329281599" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/src/ch04/team/Team.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375328873278" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/src/ch04/team/Player.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375328873278" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/src/ch04/team/HttpResponse.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375328873278" ignored="false" />
+    <file path="$PROJECT_DIR$/../JWS/src/ch04/team/NSResolver.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375328873278" ignored="false" />
+    <file path="/XStreamTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375339185254" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,24 +110,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="74" selection-start="2815" selection-end="2853" vertical-scroll-proportion="-16.551723">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="53" selection-start="3617" selection-end="3617" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,19 +122,8 @@
       <file leaf-file-name="contact.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="39" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+            <state line="6" column="9" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="17" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -127,16 +131,25 @@
       <file leaf-file-name="ContactImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+            <state line="15" column="40" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactRepository.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ContactRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="29" selection-start="333" selection-end="333" vertical-scroll-proportion="0.35413152">
+            <state line="11" column="50" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JpaRepository.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.2.0.RELEASE/spring-data-jpa-1.2.0.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,25 +158,43 @@
       <file leaf-file-name="Contact.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="23" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+            <state line="10" column="20" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exploit.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ContactTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="2" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XStreamTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/tests/XStreamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="11" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instructions.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instructions.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="60" selection-end="147" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exploit.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exploit.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="70" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oldexploit.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oldexploit.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+            <state line="11" column="102" selection-start="398" selection-end="428" vertical-scroll-proportion="0.5451895">
               <folding />
             </state>
           </provider>
@@ -188,10 +219,13 @@
         <option value="$PROJECT_DIR$/src/test/java/org/pwntester/springserver/AppTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/payload.xml" />
-        <option value="$PROJECT_DIR$/exploit.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactController.java" />
         <option value="$PROJECT_DIR$/contact.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/pwntester/springserver/Contact.java" />
+        <option value="$PROJECT_DIR$/exploit.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/XStreamTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tests/XStreamTest.java" />
       </list>
     </option>
   </component>
@@ -220,6 +254,20 @@
           <option name="myItemId" value="SpringServer" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SpringServer" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -238,9 +286,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -269,7 +318,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -375,26 +424,67 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/pwntester/springserver" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Project" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.sourceCode" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StrutsAwareness" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../XMLDecoderVuln" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -404,6 +494,13 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.pwntester.springserver" />
+      <recent name="org" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -724,14 +821,33 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -740,20 +856,22 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.259375" sideWeight="0.8740662" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25801954" sideWeight="0.8740662" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13447171" sideWeight="0.67083335" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13199426" sideWeight="0.54393303" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24791667" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24175036" sideWeight="0.54393303" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45606694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -822,33 +940,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="53" selection-start="3617" selection-end="3617" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -863,6 +958,9 @@
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
@@ -871,8 +969,26 @@
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="17" selection-start="3581" selection-end="3581" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="50" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.2.0.RELEASE/spring-data-jpa-1.2.0.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
@@ -882,67 +998,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/contact.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="53" selection-start="3617" selection-end="3617" vertical-scroll-proportion="0.0">
+        <state line="6" column="9" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="40" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="74" selection-start="2815" selection-end="2853" vertical-scroll-proportion="-16.551723">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oldexploit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exploit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="70" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+        <state line="55" column="8" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+        <state line="12" column="29" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="333" selection-end="333" vertical-scroll-proportion="0.35413152">
+        <state line="10" column="20" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="2" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tests/XStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instructions.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="60" selection-end="147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exploit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="102" selection-start="398" selection-end="428" vertical-scroll-proportion="0.5451895">
           <folding />
         </state>
       </provider>
@@ -1002,6 +1116,18 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>Spring|SpringServer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

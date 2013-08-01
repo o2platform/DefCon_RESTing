@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_06" class="java.beans.XMLDecoder"> 
+ <object class="java.util.ArrayList"> 
+  <void method="add"> 
+   <object class="ch04.team.Team"> 
+    <void property="name"> 
+     <string>BurnsAndAllen</string> 
+    </void> 
+    <void property="players"> 
+     <object class="java.util.ArrayList"> 
+      <void method="add"> 
+       <object class="ch04.team.Player"> 
+        <void property="name"> 
+         <string>George Burns</string> 
+        </void> 
+        <void property="nickname"> 
+         <string>George</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="ch04.team.Player"> 
+        <void property="name"> 
+         <string>Gracie Allen</string> 
+        </void> 
+        <void property="nickname"> 
+         <string>Gracie</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="ch04.team.Team"> 
+    <void property="name"> 
+     <string>AbbottAndCostello</string> 
+    </void> 
+    <void property="players"> 
+     <object class="java.util.ArrayList"> 
+      <void method="add"> 
+       <object class="ch04.team.Player"> 
+        <void property="name"> 
+         <string>William Abbott</string> 
+        </void> 
+        <void property="nickname"> 
+         <string>Bud</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="ch04.team.Player"> 
+        <void property="name"> 
+         <string>Louis Cristillo</string> 
+        </void> 
+        <void property="nickname"> 
+         <string>Lou</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="ch04.team.Team"> 
+    <void property="name"> 
+     <string>MarxBrothers</string> 
+    </void> 
+    <void property="players"> 
+     <object class="java.util.ArrayList"> 
+      <void method="add"> 
+       <object class="ch04.team.Player"> 
+        <void property="name"> 
+         <string>Leonard Marx</string> 
+        </void> 
+        <void property="nickname"> 
+         <string>Chico</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="ch04.team.Player"> 
+        <void property="name"> 
+         <string>Julius Marx</string> 
+        </void> 
+        <void property="nickname"> 
+         <string>Groucho</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="ch04.team.Player"> 
+        <void property="name"> 
+         <string>Adolph Marx</string> 
+        </void> 
+        <void property="nickname"> 
+         <string>Harpo</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 
