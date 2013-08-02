@@ -9,11 +9,11 @@
     <list default="true" id="e8a7167e-0109-4955-97e7-de2e364a7c8f" name="Default" comment="" />
     <ignored path="XMLDecoderVuln.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375318616778" ignored="false" />
+    <file path="/Main.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375393479796" ignored="false" />
     <file path="/RuntimeUtil.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1373812915409" ignored="false" />
     <file path="/Test2.xml" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375330191172" ignored="false" />
     <file path="/MANIFEST.MF" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1374533498599" ignored="false" />
-    <file path="/fragment.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375329370385" ignored="false" />
+    <file path="/fragment.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375471107181" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375321686632" ignored="false" />
     <file path="/PocUsingBytes.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375321856071" ignored="false" />
     <file path="/RestfulTeams.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375322831567" ignored="false" />
@@ -34,6 +34,19 @@
     <file path="$PROJECT_DIR$/../JWS/src/ch04/team/NSResolver.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375328873279" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringServer/src/main/java/org/tests/XStreamTest.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375382800497" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringServer/src/main/java/org/pwntester/springserver/ContactTest.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375382753847" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/Main.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375471882797" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/ClientRestlet.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375406722265" ignored="false" />
+    <file path="/ClientRestlet.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375406689026" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/HelloServer.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375408265679" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375408369314" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServer.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375409927989" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375410798689" ignored="false" />
+    <file path="/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375410680137" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/ServerRestlets.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375409413294" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/CustomerRessource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375409497618" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/Customer.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375409479358" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/XmlEncodeTest.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375472662386" ignored="false" />
+    <file path="/XmlEncodeTest.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375472651519" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,15 +129,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainOriginal.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/MainOriginal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RestfulTeams.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/defcon/poc/rest/RestfulTeams.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,10 +147,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PocUsingBytes.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PocUsingBytes.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/PocUsingBytes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="40" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
+            <state line="23" column="22" selection-start="909" selection-end="919" vertical-scroll-proportion="0.55820894">
               <folding />
             </state>
           </provider>
@@ -179,19 +183,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PocUsingBytes_Open_Notepad.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/PocUsingBytes_Open_Notepad.java">
+      <file leaf-file-name="Test2.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="65" selection-start="368" selection-end="405" vertical-scroll-proportion="0.0">
+            <state line="13" column="39" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test2.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test2.xml">
+      <file leaf-file-name="TestOrig.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestOrig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="39" selection-end="366" vertical-scroll-proportion="0.3044776">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestObjectMethodCall.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestObjectMethodCall.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -309,6 +322,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XMLDecoderVuln" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XMLDecoderVuln" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XMLDecoderVuln" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XMLDecoderVuln" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -596,16 +645,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_25/src.zip!/java/io/BufferedOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="31" selection-start="1149" selection-end="1169" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_25/src.zip!/java/io/ByteArrayOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="16" selection-start="8940" selection-end="8940" vertical-scroll-proportion="0.6755725" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_25/src.zip!/java/io/ByteArrayInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="11" selection-start="2836" selection-end="2836" vertical-scroll-proportion="0.0" />
@@ -620,26 +659,14 @@
     </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_25/src.zip!/java/beans/XMLDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="0" selection-start="7639" selection-end="7639" vertical-scroll-proportion="0.0" />
+        <state line="249" column="0" selection-start="7639" selection-end="7639" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/PocUsingBytes_Open_Notepad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="65" selection-start="368" selection-end="405" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_25/src.zip!/java/lang/ProcessBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="35" selection-start="7877" selection-end="7877" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/RuntimeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="266" selection-end="282" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -672,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/PocUsingBytes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="40" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/PocUsingBytes_ExecuteFromXml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="1" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
@@ -693,9 +713,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RuntimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="266" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_25/src.zip!/java/lang/ProcessBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="35" selection-start="7877" selection-end="7877" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="39" selection-end="366" vertical-scroll-proportion="0.3044776">
+        <state line="13" column="39" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestOrig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestObjectMethodCall.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/PocUsingBytes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="909" selection-end="919" vertical-scroll-proportion="0.55820894">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.restlet">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/org.restlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/org.restlet.ext.jaxb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
