@@ -23,10 +23,11 @@ var result_Str 	= topPanel.insert_Right(150,"Result").add_TextArea();
 toolStrip.add_Button("convert", "btExecuteSelectedMethod_Image".formImage(), ()=> convert());
 
 var fileLoaded  = toolStrip.add_Label("Exploit:").add_TextBox("").width(150);
-toolStrip.add_Button("Save", "SaveFile".formImage(),()=> saveFile()).add_Separator();;
+toolStrip.add_Button  ("Save", "SaveFile".formImage(),()=> saveFile()).add_Separator();;
 toolStrip.add_CheckBox("Auto Convert (on text change)", (value)=> autoConvert = value);
-toolStrip.add_CheckBox("Auto COnvert (on file load)", (value)=> autoExecute = value);
-toolStrip.add_Button("REPL Api_Jni4Net", "text_x_script".formImage(), ()=> jni4Net.script_Me("jni4Net").code_Append("//O2Ref:Jni4Net/lib/jni4net.n-0.8.6.0.dll\n//using O2.XRules.Database.APIs"));
+toolStrip.add_CheckBox("Auto Convert (on file load)", (value)=> autoExecute = value);
+toolStrip.add_Button  ("Exploits Folder", "Folder_Open1".formImage(), ()=> exploitsFolder.startProcess());
+toolStrip.add_Button  ("REPL Api_Jni4Net", "text_x_script".formImage(), ()=> jni4Net.script_Me("jni4Net").code_Append("//O2Ref:Jni4Net/lib/jni4net.n-0.8.6.0.dll\n//using O2.XRules.Database.APIs"));
 
 
 convert =()=>{			
@@ -66,8 +67,9 @@ loadFiles = ()=>  {
 saveFile  = ()=>  {
 					 var targetFile = exploitsFolder.pathCombine(fileLoaded.get_Text());
 					 "Saving current file to: {0}".info(targetFile);
-					 codeEditor.get_Text().saveAs(targetFile);					 
+					 codeEditor.get_Text().saveAs(targetFile);					 					 
 					 loadFiles();
+					 codeEditor.open(targetFile);
 				  };
 
 exploitsFolder = PublicDI.CurrentScriptFolder.notNull() ? PublicDI.CurrentScriptFolder.pathCombine(exploitsFolder)

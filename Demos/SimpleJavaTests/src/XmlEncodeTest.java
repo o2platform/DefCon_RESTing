@@ -1,6 +1,5 @@
 import javax.swing.*;
-import java.beans.EventHandler;
-import java.beans.XMLEncoder;
+import java.beans.*;
 import java.io.*;
 import java.util.Set;
 import java.util.TreeSet;
@@ -29,7 +28,14 @@ public class XmlEncodeTest
         set.add("foo");
         set.add(EventHandler.create(Comparable.class, new
                 ProcessBuilder("notepad", "c:\\windows\\win.ini"), "start"));*/
-        Object obj = new JButton("Hello, world");
+        //Object obj = new JButton[] { new JButton("Hello, world")};
+        String file = "C:\\_Presentation\\DefCon_RESTing\\Demos\\SimpleJavaTests\\out\\production\\SimpleJavaTests\\com\\company\\RuntimeUtil_.class";
+        FileInputStream fileInputStream = new FileInputStream(file);
+        int available = fileInputStream.available();
+        System.out.println(available);
+        byte[] obj = new byte[200];
+        fileInputStream.read(obj,0,20);
+        //Object obj = "hello World".getBytes();
         xmlEncoder.writeObject(obj);
 
         xmlEncoder.close();
@@ -40,7 +46,7 @@ public class XmlEncodeTest
 
         String result =  new String(bytes, "UTF-8");
         //return bytes.ascii();
-
+        System.out.println("done");
         System.out.println(result);
     }
 }

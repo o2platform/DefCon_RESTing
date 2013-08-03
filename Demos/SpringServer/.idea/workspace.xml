@@ -8,19 +8,19 @@
     <file path="/ContactRepository.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365938356949" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365428807951" ignored="false" />
     <file path="/contacts.jsp" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365358900980" ignored="false" />
-    <file path="/ContactController.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365938386668" ignored="false" />
+    <file path="/ContactController.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375501385008" ignored="false" />
     <file path="$PROJECT_DIR$/../StrutsAwareness/StrutsAware.iml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365440512648" ignored="false" />
     <file path="/persistence.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365938290638" ignored="false" />
     <file path="/exploit.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375313193778" ignored="false" />
     <file path="/oldexploit.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1365959131114" ignored="false" />
-    <file path="/fragment.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375471107181" ignored="false" />
+    <file path="/fragment.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375476090129" ignored="false" />
     <file path="/Dummy.txt" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375338562610" ignored="false" />
     <file path="/payload.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1367919570081" ignored="false" />
     <file path="/contact.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1367920727563" ignored="false" />
     <file path="$PROJECT_DIR$/../XMLDecoderVuln/Test.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375316694437" ignored="false" />
     <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/Main.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375318579196" ignored="false" />
     <file path="$PROJECT_DIR$/../XMLDecoderVuln/.idea/workspace.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375321686632" ignored="false" />
-    <file path="/Main.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375393479796" ignored="false" />
+    <file path="/Main.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375495723491" ignored="false" />
     <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/PocUsingBytes.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375322289674" ignored="false" />
     <file path="/PocUsingBytes.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375321856071" ignored="false" />
     <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/com/company/MainOriginal.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375318616778" ignored="false" />
@@ -35,7 +35,7 @@
     <file path="/RestfulTeams.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375322831567" ignored="false" />
     <file path="$PROJECT_DIR$/../XMLDecoderVuln/src/defcon/poc/rest/Team.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375323006300" ignored="false" />
     <file path="$PROJECT_DIR$/../XmlDecode_ViaRest/web/index.jsp" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375324440097" ignored="false" />
-    <file path="/index.jsp" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375324440097" ignored="false" />
+    <file path="/index.jsp" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375493810468" ignored="false" />
     <file path="$PROJECT_DIR$/../XmlDecode_ViaRest/src/defcon/poc/rest/WSTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375324950358" ignored="false" />
     <file path="/WSTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375324950358" ignored="false" />
     <file path="$PROJECT_DIR$/../JWS/web/WEB-INF/web.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375327010093" ignored="false" />
@@ -50,19 +50,42 @@
     <file path="$PROJECT_DIR$/../JWS/src/ch04/team/HttpResponse.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375328873278" ignored="false" />
     <file path="$PROJECT_DIR$/../JWS/src/ch04/team/NSResolver.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375328873278" ignored="false" />
     <file path="/XStreamTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375339185254" ignored="false" />
-    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/Main.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375471882797" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/Main.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375495815114" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/ClientRestlet.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375406722284" ignored="false" />
     <file path="/ClientRestlet.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375406689026" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/HelloServer.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375408265679" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/HelloServerResource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375408369314" ignored="false" />
-    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServer.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375409927989" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServer.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375480933854" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServerResource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375410798689" ignored="false" />
     <file path="/HelloServerResource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375410680137" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/ServerRestlets.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375409413254" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/CustomerRessource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375409497618" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/Customer.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375409479357" ignored="false" />
-    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/XmlEncodeTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375472662321" ignored="false" />
-    <file path="/XmlEncodeTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375472651519" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/XmlEncodeTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375482450443" ignored="false" />
+    <file path="/XmlEncodeTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375481347823" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/XmlDecodeTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375476922202" ignored="false" />
+    <file path="/XmlDecodeTest.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375476833475" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/test.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375477326892" ignored="false" />
+    <file path="/HelloServer.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375480036957" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestServlet/src/WebContent/WEB-INF/web.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375494705784" ignored="false" />
+    <file path="/web.xml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375494705473" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestServlet/src/server/AccountServerResource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375489972847" ignored="false" />
+    <file path="$PROJECT_DIR$/../SpringMvcTest/src/main/java/com/springapp/mvc/HelloController.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375492794291" ignored="false" />
+    <file path="/HelloController.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375490896363" ignored="false" />
+    <file path="/a.dummy" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375492904147" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestServlet/src/com/testServlet/TestServletApplication.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375494707362" ignored="false" />
+    <file path="/TestServlet.iml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375493686132" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestServlet/TestServlet.iml" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375493844100" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestServlet/src/WebContent/WEB-INF/index.jsp" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375493810468" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestServlet/src/CustomerRessource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375494293513" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestServlet/src/ServerRestlets.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375494353591" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestServlet/src/com/testServlet/ServerRestlets.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375494477107" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestServlet/src/com/testServlet/CustomerRessource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375494477107" ignored="false" />
+    <file path="$PROJECT_DIR$/../TestServlet/src/com/testServlet/Customer.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375494405789" ignored="false" />
+    <file path="/TestServletApplication.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375494472073" ignored="false" />
+    <file path="/Exploit.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375501317320" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/aaaaa.txt" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375510448071" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/aaaa2.txt" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375511050674" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,21 +138,6 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints>
-      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/ws/spring-oxm/1.0.2/spring-oxm-1.0.2-sources.jar!/org/springframework/oxm/xstream/XStreamMarshaller.java" line="345" class="org.springframework.oxm.xstream.XStreamMarshaller" package="org.springframework.oxm.xstream">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/XStream.java" line="1029" class="com.thoughtworks.xstream.XStream" package="com.thoughtworks.xstream">
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
@@ -160,6 +168,81 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/tests/Exploit.java" line="22" class="org.tests.Exploit" package="org.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/tests/Exploit.java" line="30" class="org.tests.Exploit" package="org.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/tests/Exploit.java" line="18" class="org.tests.Exploit" package="org.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/tests/Exploit.java" line="35" class="org.tests.Exploit" package="org.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/tests/Exploit.java" line="19" class="org.tests.Exploit" package="org.tests">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -170,113 +253,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AnnotationProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/annotations/AnnotationProvider.java">
+      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#1029#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractCollectionConverter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/converters/collections/AbstractCollectionConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="22" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#3291#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XStreamer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/XStreamer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#6532#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XStreamMarshaller.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/ws/spring-oxm/1.0.2/spring-oxm-1.0.2-sources.jar!/org/springframework/oxm/xstream/XStreamMarshaller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="345" column="0" selection-start="13006" selection-end="13006" vertical-scroll-proportion="1.5268292">
+            <state line="0" column="0" selection-start="0" selection-end="1018" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractMarshaller.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/ws/spring-oxm/1.0.2/spring-oxm-1.0.2-sources.jar!/org/springframework/oxm/AbstractMarshaller.java">
+      <file leaf-file-name="ContactImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="44" selection-start="5849" selection-end="5849" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#22211#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarshallingHttpMessageConverter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/http/converter/xml/MarshallingHttpMessageConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="0" selection-start="4514" selection-end="4514" vertical-scroll-proportion="0.0">
+            <state line="14" column="19" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XStream.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/XStream.java">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1029" column="0" selection-start="44315" selection-end="44315" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarshallingStrategy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/MarshallingStrategy.java">
+      <file leaf-file-name="ContactRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="11" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#978#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="11" column="17" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XppReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/io/xml/XppReader.java">
+      <file leaf-file-name="ContactController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#4929#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="32" column="19" selection-start="1042" selection-end="1056" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CharsetConverter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/converters/extended/CharsetConverter.java">
+      <file leaf-file-name="RequestMapping.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="274" column="18" selection-start="16460" selection-end="16465" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exploit.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/tests/Exploit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="24" selection-start="128" selection-end="128" vertical-scroll-proportion="0.09855072">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/Contact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="17" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="24" selection-start="202" selection-end="213" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XStreamTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/tests/XStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#952#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -291,7 +362,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/contacts.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactImpl.java" />
@@ -304,9 +374,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/pwntester/springserver/Contact.java" />
         <option value="$PROJECT_DIR$/exploit.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/XStreamTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tests/XStreamTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tests/Exploit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactController.java" />
       </list>
     </option>
   </component>
@@ -439,116 +510,6 @@
               <option name="myItemId" value="SpringServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.ws:spring-oxm:1.0.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-oxm-1.0.2.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oxm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.ws:spring-oxm:1.0.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-oxm-1.0.2.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oxm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xstream" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.ws:spring-oxm:1.0.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-oxm-1.0.2.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.thoughtworks.xstream:xstream:1.4.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xstream-1.4.4.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.thoughtworks.xstream:xstream:1.4.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xstream-1.4.4.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xstream" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -601,14 +562,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1052,14 +1005,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.7866109" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61227334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45327756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1070,11 +1023,11 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.60111576" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18651363" sideWeight="0.39888424" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18651363" sideWeight="0.5467225" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24791667" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27977043" sideWeight="0.39888424" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.60111576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.5467225" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34588563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1153,98 +1106,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="754" selection-end="754" vertical-scroll-proportion="0.6854839">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="17" selection-start="3581" selection-end="3581" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.2.0.RELEASE/spring-data-jpa-1.2.0.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="186" selection-end="186" vertical-scroll-proportion="0.15315315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4.jar!/com/thoughtworks/xstream/annotations/AnnotationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="224" selection-end="224" vertical-scroll-proportion="-6.12">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4.jar!/com/thoughtworks/xstream/converters/collections/AbstractCollectionConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="199" selection-end="199" vertical-scroll-proportion="-3.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4.jar!/com/thoughtworks/xstream/converters/extended/CharsetConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="64" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/annotations/AnnotationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#1029#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/converters/extended/CharsetConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#952#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/converters/collections/AbstractCollectionConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="22" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#3291#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/XStreamer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#6532#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/io/xml/XppReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#4929#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/_Research/xstream-1.4.4/xstream/src/java/com/thoughtworks/xstream/MarshallingStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="11" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
@@ -1281,7 +1142,93 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/ws/spring-oxm/1.0.2/spring-oxm-1.0.2-sources.jar!/org/springframework/oxm/xstream/XStreamMarshaller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="345" column="0" selection-start="13006" selection-end="13006" vertical-scroll-proportion="1.5268292">
+        <state line="345" column="18" selection-start="13024" selection-end="13024" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="47" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tests/XStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="202" selection-end="213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1018" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="274" column="18" selection-start="16460" selection-end="16465" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/pwntester/springserver/ContactController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="19" selection-start="1042" selection-end="1056" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tests/Exploit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="128" selection-end="128" vertical-scroll-proportion="0.09855072">
           <folding />
         </state>
       </provider>
