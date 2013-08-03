@@ -56,8 +56,8 @@
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/HelloServer.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375408265679" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/HelloServerResource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375408369314" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServer.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375480933854" ignored="false" />
-    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServerResource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375410798689" ignored="false" />
-    <file path="/HelloServerResource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375410680137" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServerResource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375552839999" ignored="false" />
+    <file path="/HelloServerResource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375552837006" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/ServerRestlets.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375409413254" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/CustomerRessource.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375409497618" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/Customer.java" changelist="6c049f88-2261-49e0-8b90-fc951b03e7da" time="1375409479357" ignored="false" />
@@ -311,7 +311,10 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="274" column="18" selection-start="16460" selection-end="16465" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="e#0#21588#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1215,7 +1218,10 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="274" column="18" selection-start="16460" selection-end="16465" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#0#21588#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

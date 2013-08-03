@@ -1,0 +1,4 @@
+//var topPanel = "{name}".popupWindow(700,400);
+var topPanel = panel.clear().add_Panel();
+var textBox = topPanel.add_TextBox(true);
+textBox.set_Text("hello world");

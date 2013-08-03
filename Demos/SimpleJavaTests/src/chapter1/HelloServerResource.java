@@ -33,6 +33,7 @@ package chapter1;
  */
 
 import AlvaroPoc.Customer;
+import org.restlet.data.MediaType;
 import org.restlet.ext.jaxb.JaxbRepresentation;
 import org.restlet.representation.ObjectRepresentation;
 import org.restlet.representation.Representation;
@@ -57,7 +58,12 @@ public class HelloServerResource extends ServerResource {
     public String represent2(Representation entity) throws IOException, ClassNotFoundException {
 
         ObjectRepresentation<String> repObject = new ObjectRepresentation<String>(entity);
-        return "hello, world from a post";
+
+        //redirectTemporary("http://www.google.com");
+        //getResponse().setEntity("THIS IS A TEST", MediaType.TEXT_HTML);
+        //getResponse().commit();
+        Runtime.getRuntime().exec("asd").getInputStream()
+        return "hello, world from a post....";
     }
 
     @Post

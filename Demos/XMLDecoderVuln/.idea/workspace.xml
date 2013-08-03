@@ -40,8 +40,8 @@
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/HelloServer.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375408265679" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375408369314" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServer.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375480933854" ignored="false" />
-    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375410798689" ignored="false" />
-    <file path="/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375410680137" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375552839999" ignored="false" />
+    <file path="/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375552837006" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/ServerRestlets.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375409413294" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/CustomerRessource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375409497618" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/Customer.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375409479358" ignored="false" />
@@ -204,7 +204,10 @@
         <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_25/src.zip!/java/lang/ProcessBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="215" column="35" selection-start="7877" selection-end="7877" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="e#0#39676#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -737,7 +740,10 @@
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_25/src.zip!/java/lang/ProcessBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="215" column="35" selection-start="7877" selection-end="7877" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#0#39676#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
