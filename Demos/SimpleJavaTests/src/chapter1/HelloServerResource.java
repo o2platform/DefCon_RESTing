@@ -35,6 +35,7 @@ package chapter1;
 import AlvaroPoc.Customer;
 import org.restlet.data.MediaType;
 import org.restlet.ext.jaxb.JaxbRepresentation;
+import org.restlet.representation.FileRepresentation;
 import org.restlet.representation.ObjectRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.Get;
@@ -42,6 +43,7 @@ import org.restlet.resource.Put;
 import org.restlet.resource.Post;
 import org.restlet.resource.ServerResource;
 
+import java.io.File;
 import java.io.IOException;
 
 /**
@@ -50,19 +52,39 @@ import java.io.IOException;
 public class HelloServerResource extends ServerResource {
 
     @Get("txt")
-    public String represent() {
-        return "hello, world";
+    public String represent() throws IOException, InterruptedException
+    {
+        /*ProcessBuilder processBuilder = new ProcessBuilder("netstat");
+        processBuilder.start();
+        File file = new File("_test_2.txt");
+        processBuilder.redirectOutput(file);
+        Process process = processBuilder.start();
+        process.waitFor();
+        FileRepresentation fileRepresentation = new FileRepresentation(file,MediaType.TEXT_HTML);*/
+
+        //getResponse().setEntity(fileRepresentation);
+
+        //getResponse().setEntity("AAAAA", MediaType.TEXT_HTML);
+        return "hello, world ... aa...";
     }
 
     @Put
-    public String represent2(Representation entity) throws IOException, ClassNotFoundException {
+    public String represent2(Representation entity) throws ClassNotFoundException, IOException {
 
         ObjectRepresentation<String> repObject = new ObjectRepresentation<String>(entity);
 
         //redirectTemporary("http://www.google.com");
         //getResponse().setEntity("THIS IS A TEST", MediaType.TEXT_HTML);
         //getResponse().commit();
-        Runtime.getRuntime().exec("asd").getInputStream()
+
+      /*  ProcessBuilder processBuilder = new ProcessBuilder("ipconfig");
+        processBuilder.start();
+        File file = new File("_test.txt");
+        processBuilder.redirectOutput(file);
+        processBuilder.start();
+        FileRepresentation fileRepresentation = new FileRepresentation(file,MediaType.TEXT_HTML);
+        getResponse().setEntity(fileRepresentation);
+                          */
         return "hello, world from a post....";
     }
 

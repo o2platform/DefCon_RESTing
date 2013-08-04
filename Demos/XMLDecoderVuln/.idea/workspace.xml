@@ -9,7 +9,7 @@
     <list default="true" id="e8a7167e-0109-4955-97e7-de2e364a7c8f" name="Default" comment="" />
     <ignored path="XMLDecoderVuln.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375495723492" ignored="false" />
+    <file path="/Main.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375567723750" ignored="false" />
     <file path="/RuntimeUtil.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1373812915409" ignored="false" />
     <file path="/Test2.xml" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375330191172" ignored="false" />
     <file path="/MANIFEST.MF" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1374533498599" ignored="false" />
@@ -34,14 +34,14 @@
     <file path="$PROJECT_DIR$/../JWS/src/ch04/team/NSResolver.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375328873279" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringServer/src/main/java/org/tests/XStreamTest.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375382800497" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringServer/src/main/java/org/pwntester/springserver/ContactTest.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375382753847" ignored="false" />
-    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/Main.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375495815114" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/Main.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375567761650" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/ClientRestlet.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375406722265" ignored="false" />
     <file path="/ClientRestlet.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375406689026" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/HelloServer.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375408265679" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375408369314" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServer.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375480933854" ignored="false" />
-    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375552839999" ignored="false" />
-    <file path="/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375552837006" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/src/chapter1/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375574216377" ignored="false" />
+    <file path="/HelloServerResource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375573317290" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/ServerRestlets.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375409413294" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/CustomerRessource.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375409497618" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/src/AlvaroPoc/Customer.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375409479358" ignored="false" />
@@ -73,6 +73,7 @@
     <file path="/ContactController.java" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375501385008" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/aaaaa.txt" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375510448071" ignored="false" />
     <file path="$PROJECT_DIR$/../SimpleJavaTests/aaaa2.txt" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375511050674" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimpleJavaTests/_test.txt" changelist="e8a7167e-0109-4955-97e7-de2e364a7c8f" time="1375574209183" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -580,7 +581,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

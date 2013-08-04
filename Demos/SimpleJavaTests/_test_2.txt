@@ -1,0 +1,27 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:1432         local:ms-sql-s         ESTABLISHED
+  TCP    127.0.0.1:1433         local:1432             ESTABLISHED
+  TCP    127.0.0.1:1434         local:1435             ESTABLISHED
+  TCP    127.0.0.1:1435         local:ms-sql-m         ESTABLISHED
+  TCP    127.0.0.1:1452         local:1453             ESTABLISHED
+  TCP    127.0.0.1:1453         local:1452             ESTABLISHED
+  TCP    127.0.0.1:1454         local:1455             ESTABLISHED
+  TCP    127.0.0.1:1455         local:1454             ESTABLISHED
+  TCP    127.0.0.1:7707         local:7708             ESTABLISHED
+  TCP    127.0.0.1:7708         local:7707             ESTABLISHED
+  TCP    127.0.0.1:8112         local:14057            ESTABLISHED
+  TCP    127.0.0.1:8112         local:14058            ESTABLISHED
+  TCP    127.0.0.1:14050        local:14051            TIME_WAIT
+  TCP    127.0.0.1:14052        local:14053            TIME_WAIT
+  TCP    127.0.0.1:14054        local:1456             TIME_WAIT
+  TCP    127.0.0.1:14055        local:14056            ESTABLISHED
+  TCP    127.0.0.1:14056        local:14055            ESTABLISHED
+  TCP    127.0.0.1:14057        local:8112             ESTABLISHED
+  TCP    127.0.0.1:14058        local:8112             ESTABLISHED
+  TCP    172.16.108.129:13618   173:http               ESTABLISHED
+  TCP    172.16.108.129:13619   lax04s09-in-f18:https  ESTABLISHED
+  TCP    172.16.108.129:14048   lax04s09-in-f2:https   ESTABLISHED
+  TCP    172.16.108.129:14049   mia04s04-in-f15:http   ESTABLISHED
