@@ -5,7 +5,7 @@
     <ignored path="SimpleJavaTests.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375567723750" ignored="false" />
-    <file path="/fragment.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375476090129" ignored="false" />
+    <file path="/fragment.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375597518631" ignored="false" />
     <file path="/ClientRestlet.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375406689026" ignored="false" />
     <file path="/HelloServerResource.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375573317290" ignored="false" />
     <file path="/XmlEncodeTest.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375481347823" ignored="false" />
@@ -16,7 +16,7 @@
     <file path="$PROJECT_DIR$/../TestServlet/src/server/AccountServerResource.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375489972847" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringMvcTest/src/main/java/com/springapp/mvc/HelloController.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375492794292" ignored="false" />
     <file path="/HelloController.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375490896382" ignored="false" />
-    <file path="/a.dummy" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375492904046" ignored="false" />
+    <file path="/a.dummy" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375585323086" ignored="false" />
     <file path="$PROJECT_DIR$/../TestServlet/src/com/testServlet/TestServletApplication.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375494707362" ignored="false" />
     <file path="/TestServlet.iml" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375493686132" ignored="false" />
     <file path="$PROJECT_DIR$/../TestServlet/TestServlet.iml" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375493844100" ignored="false" />
@@ -32,6 +32,34 @@
     <file path="/Exploit.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375501317319" ignored="false" />
     <file path="$PROJECT_DIR$/../SpringServer/src/main/java/org/pwntester/springserver/ContactController.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375501417799" ignored="false" />
     <file path="/ContactController.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375501385008" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/DemoWebAPI.iml" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375581666781" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/src/main/java/com/example/webapi/server/FooServerResource.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375581661773" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/src/main/java/README" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375581661773" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/src/main/java/com/example/webapi/server/IParrotServerResource.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375581661773" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/DemoWebAPI.iws" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375601212659" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/DemoWebAPI.ipr" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375581666781" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/src/main/java/com/example/webapi/ServerApplication.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375581661773" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/README.md" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375581661773" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/src/main/java/com/example/webapi/common/Foo.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375581661773" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/pom.xml" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375585888370" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/src/main/java/com/example/webapi/common/Parrot.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375581661773" ignored="false" />
+    <file path="$PROJECT_DIR$/../jsumners-restlet-2.1-demo-a7ba12d5c91d/src/main/java/com/example/webapi/server/ParrotServerResource.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375581661773" ignored="false" />
+    <file path="/pom.xml" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375585881872" ignored="false" />
+    <file path="/Dummy.txt" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375588179707" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Live-Demos/Restlet-App/.idea/workspace.xml" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375601212659" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Live-Demos/Restlet-App/src/firstResource/Item.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375598599783" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Live-Demos/Restlet-App/src/firstResource/BaseResource.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375594504484" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Live-Demos/Restlet-App/src/firstResource/ItemResource.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375596178339" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Live-Demos/Restlet-App/src/firstResource/ItemsResource.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375597414249" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Live-Demos/Restlet-App/src/firstResource/FirstResourceClientMain.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375594929323" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Live-Demos/Restlet-App/src/firstResource/FirstResourceServerMain.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375599513315" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Live-Demos/Restlet-App/src/firstResource/FirstResourceApplication.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375597757604" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Live-Demos/Restlet-App/.idea/misc.xml" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375594479621" ignored="false" />
+    <file path="/ItemsResource.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375596627990" ignored="false" />
+    <file path="/Item.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375596266120" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Live-Demos/Restlet-App/src/firstResource/ItemsXmlResource.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375597567515" ignored="false" />
+    <file path="/FirstResourceApplication.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375597542786" ignored="false" />
+    <file path="/FirstResourceServerMain.java" changelist="e0b4abb2-81ca-4d2b-a695-4b57f83be161" time="1375599132038" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,11 +212,22 @@
       <file leaf-file-name="HelloServerResource.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter1/HelloServerResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="9" selection-start="2840" selection-end="3207" vertical-scroll-proportion="0.42045453">
+            <state line="73" column="8" selection-start="2584" selection-end="2666" vertical-scroll-proportion="0.2755682">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2649#2657#0" expanded="true" />
                 <element signature="e#3492#3500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlEncodeTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/XmlEncodeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="9" selection-start="1500" selection-end="1527" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -248,18 +287,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="31" selection-start="195" selection-end="410" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#621#633#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -277,11 +304,11 @@
         <option value="$PROJECT_DIR$/src/AlvaroPoc/CustomerRessource.java" />
         <option value="$PROJECT_DIR$/src/XmlDecodeTest.java" />
         <option value="$PROJECT_DIR$/src/chapter1/HelloServer.java" />
-        <option value="$PROJECT_DIR$/src/XmlEncodeTest.java" />
         <option value="$PROJECT_DIR$/aaaaa.txt" />
         <option value="$PROJECT_DIR$/aaaa2.txt" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/chapter1/HelloServerResource.java" />
+        <option value="$PROJECT_DIR$/src/XmlEncodeTest.java" />
       </list>
     </option>
   </component>
@@ -604,12 +631,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.67085075" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.55648535" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.55648535" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.67085075" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24748924" sideWeight="0.55648535" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44351465" sideWeight="0.8400287" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24748924" sideWeight="0.55648535" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44351465" sideWeight="0.8400287" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -681,13 +708,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/_Research/restlet-jse-2.1.2/src/org.restlet/org/restlet/representation/StreamRepresentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="54" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/_Research/restlet-jse-2.1.2/src/org.restlet/org/restlet/representation/WriterRepresentation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="26" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.0">
@@ -789,9 +809,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/XmlEncodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="9" selection-start="1500" selection-end="1527" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/HelloServerResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="9" selection-start="2840" selection-end="3207" vertical-scroll-proportion="0.42045453">
+        <state line="73" column="8" selection-start="2584" selection-end="2666" vertical-scroll-proportion="0.2755682">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2649#2657#0" expanded="true" />

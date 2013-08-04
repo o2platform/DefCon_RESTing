@@ -69,7 +69,7 @@
             Include build profile specific properties.
             -->
             <resource>
-              <directory>${basedir}/src/main/resources/${profile.name}</directory>
+              <directory>${basedir}/src/main/resources/</directory>
               <targetPath>WEB-INF</targetPath>
               <includes>
                 <include>*.properties</include>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.restlet">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/org.restlet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://C:/_Research/restlet-jse-2.1.2/src/org.restlet" />
+    </SOURCES>
+  </library>
+</component>

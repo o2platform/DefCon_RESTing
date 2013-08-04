@@ -1,0 +1,39 @@
+#fcbk_share {
+	clear:both;
+	height: 40px;
+}
+.fcbk_button {
+	float:left;
+	margin-right:10px;
+}
+.fcbk_button a {
+	height: 40px;
+    display: block;
+}
+.fcbk_like {
+	float: left;
+    position: relative;
+    top: -3px;
+}
+.fb_edge_widget_with_comment span {
+	width: 450px !important;
+}
+
+#adminmenu #toplevel_page_bws_plugins div.wp-menu-image {
+	background: url("../img/icon_16.png") no-repeat scroll center center transparent;
+}
+.admin-color-classic #adminmenu #toplevel_page_bws_plugins div.wp-menu-image {
+	background: url("../img/icon_16_b.png") no-repeat scroll center center transparent;
+}
+#adminmenu #toplevel_page_bws_plugins:hover div.wp-menu-image, #adminmenu #toplevel_page_bws_plugins.wp-has-current-submenu div.wp-menu-image {
+	background: url("../img/icon_16_c.png") no-repeat scroll center center transparent;
+}	
+.wrap #icon-options-general.icon32-bws {
+	background: url("../img/icon_36.png") no-repeat scroll left top transparent;
+}
+.admin-color-classic .wrap #icon-options-general.icon32-bws {
+	background: url("../img/icon_36_b.png") no-repeat scroll left top transparent;
+}
+#toplevel_page_bws_plugins .wp-submenu .wp-first-item {
+	display:none;
+}

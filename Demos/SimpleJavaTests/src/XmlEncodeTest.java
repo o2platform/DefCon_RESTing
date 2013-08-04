@@ -29,6 +29,7 @@ public class XmlEncodeTest
         set.add(EventHandler.create(Comparable.class, new
                 ProcessBuilder("notepad", "c:\\windows\\win.ini"), "start"));*/
         //Object obj = new JButton[] { new JButton("Hello, world")};
+
         String file = "C:\\_Presentation\\DefCon_RESTing\\Demos\\SimpleJavaTests\\out\\production\\SimpleJavaTests\\com\\company\\RuntimeUtil_.class";
         FileInputStream fileInputStream = new FileInputStream(file);
         int available = fileInputStream.available();
