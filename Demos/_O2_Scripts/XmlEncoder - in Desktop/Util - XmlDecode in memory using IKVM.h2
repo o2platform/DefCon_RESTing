@@ -1,0 +1,101 @@
+//var topPanel = panel.add_Panel(true);
+var topPanel = "Util - XmlDecode in memory using IKVM.h2".popupWindow(1200,600).insert_LogViewer();
+
+bool autoConvert 	  = false;
+var exploitsFolder    = "exploits";
+XMLDecoder xmlDecoder = null;
+
+Action convert 		 = null;
+Action saveFile 	 = null;
+Action loadFiles     = null;
+
+
+var codeEditor 	= topPanel.add_SourceCodeViewer();
+var exploits 	= codeEditor.insert_Left(200,"Exploits").add_TreeView();
+var toolStrip 	= topPanel.insert_Above_ToolStrip();
+var result_Str 	= topPanel.insert_Right("Result").add_TextArea();
+var result_Obj 	= result_Str.insert_Below().add_PropertyGrid().helpVisible(false);
+var result_Xml 	= result_Str.insert_Right().add_TextArea();
+
+toolStrip.add_Button("convert", "btExecuteSelectedMethod_Image".formImage(), ()=> convert());
+toolStrip.add_CheckBox("Auto Convert", (value)=> autoConvert = value);
+
+var fileLoaded  = toolStrip.add_Label("Exploit:").add_TextBox("").width(150);
+toolStrip.add_Button("Save", "SaveFile".formImage(),()=> saveFile()).add_Separator();;
+
+toolStrip.add_Button("REPL Last XmlDecoder", "text_x_script".formImage(), ()=> xmlDecoder.script_Me().code_Append("//O2Ref:IKVM.OpenJDK.Core.dll"));
+
+convert = ()=>{			
+				 result_Str.azure();
+				 try
+				 {
+					  var xmlString = codeEditor.get_Text();
+					  var byteArrayInputStream = new ByteArrayInputStream(xmlString.asciiBytes());
+					  xmlDecoder = new java.beans.XMLDecoder(byteArrayInputStream);
+					  object result = null;
+					  try
+					  {
+					  	 result = xmlDecoder.readObject();
+					  }
+					  catch(Exception ex)
+				 	  {
+				 	  
+				 		ex.log("In readObject");
+				 	 }
+					  result_Str.set_Text(result.str());					  
+					  result_Obj.show(result);
+					  result_Xml.set_Text(result.notNull() ? result.toXml() : "");
+				 }
+				 catch(Exception ex)
+				 {
+				 	ex.log();
+				 	result_Str.pink();
+				 }
+			  };
+
+codeEditor.onTextChange(
+	(text)=> {
+				if(autoConvert)
+					convert();
+			 });
+
+exploits.afterSelect<string>(
+	(file)=>{
+				var fullPath = exploitsFolder.pathCombine(file);
+				fileLoaded.set_Text(file);
+				codeEditor.open(fullPath);
+				convert();
+			});	
+
+loadFiles = ()=>  {
+					   exploits.clear()
+					   		   .add_Nodes(exploitsFolder.files("*.xml").fileNames());
+				  };
+saveFile  = ()=>  {
+					 var targetFile = exploitsFolder.pathCombine(fileLoaded.get_Text());
+					 "Saving current file to: {0}".info(targetFile);
+					 codeEditor.get_Text().saveAs(targetFile);					 
+					 loadFiles();
+				  };
+
+exploitsFolder = PublicDI.CurrentScriptFolder.notNull() ? PublicDI.CurrentScriptFolder.pathCombine(exploitsFolder)
+														: PublicDI.config.CurrentExecutableDirectory.pathCombine(exploitsFolder);
+
+
+loadFiles();		 
+exploits.selectFirst();
+
+var tempFile = @"C:\_O2Platform\O2.Temp\8_2_2013\tmpE9AB.tmp.test.xml";
+codeEditor.open(tempFile);
+//codeEditor.open(tempFile);
+//convert();
+
+
+//using java.io
+//using java.beans
+//O2Ref:IKVM.OpenJDK.Core.dll
+//O2Ref:IKVM\ikvm-7.1.4532.2\bin\IKVM.OpenJDK.XML.API.dll
+//O2Ref:IKVM\ikvm-7.1.4532.2\bin\IKVM.OpenJDK.Beans.dll
+//O2Ref:IKVM\ikvm-7.1.4532.2\bin\IKVM.OpenJDK.Util.dll
+//O2File:API_IKVMC.cs
+//_O2EmbedTool:IKVM

