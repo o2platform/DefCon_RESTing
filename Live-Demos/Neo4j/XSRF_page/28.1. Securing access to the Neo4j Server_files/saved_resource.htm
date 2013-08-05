@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<!-- saved from url=(0345)http://disqus.com/embed/comments/?f=neo4j&t_i=manual-security-server&t_u=http%3A%2F%2Fdocs.neo4j.org%2Fchunked%2Fsnapshot%2Fsecurity-server.html&t_e=Securing%20access%20to%20the%20Neo4j%20Server&t_d=28.1.%C2%A0Securing%20access%20to%20the%20Neo4j%20Server&t_t=Securing%20access%20to%20the%20Neo4j%20Server&s_o=default&disqus_version=1375384862#1 -->
+<html lang="en" class=" js no-touch localstorage sessionstorage contenteditable"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Disqus Comments</title>
+        <script async="" src="beacon.js"></script><script type="text/javascript" async="" src="ga.js"></script><script type="text/javascript" charset="utf-8" src="config.js"></script><script type="text/javascript" charset="utf-8" src="lib.js"></script><script type="text/javascript" charset="utf-8" src="client.js"></script><script type="text/javascript" charset="utf-8" src="lounge.js"></script><!--<base target="_parent" href="http://docs.neo4j.org/chunked/stable/security-server.html">--><base href="." target="_parent">
+
+        <style>
+            html {
+                overflow: hidden;
+            }
+
+            #postCompatContainer {
+                position: absolute;
+                left: -10000px;
+                width: 1000px;
+            }
+
+            html.not-supported {
+                overflow-y: auto;
+            }
+
+            .not-supported body {
+                font-family: Arial, sans-serif;
+                font-size: 10pt;
+            }
+
+            .not-supported ul, .not-supported li {
+                margin: 0;
+                padding: 0;
+            }
+
+            .not-supported li {
+                list-style-type: none;
+            }
+
+            .not-supported h4 a {
+                color: #000;
+                text-decoration: none;
+            }
+
+            .not-supported h4 {
+                margin: 0 0 5px;
+                padding: 5px 0;
+                border-bottom: dashed 1px #999;
+            }
+
+            .not-supported #notSupported {
+                display: block;
+                border: solid 1px red;
+                padding: 10px;
+                margin-bottom: 10px;
+                overflow: hidden;
+            }
+
+            .not-supported #notSupported p {
+                margin-bottom: 10px;
+            }
+
+            .not-supported #notSupported ul {
+                margin-left: 20px;
+            }
+
+            .not-supported #notSupported ul li {
+                margin-bottom: 5px;
+            }
+
+            #notSupported, .legacy-mode, .old-browser {
+                display: none;
+            }
+
+            .not-supported.type-1 .old-browser {
+                display: block;
+            }
+
+            .not-supported.type-2 .legacy-mode {
+                display: block;
+            }
+
+            .not-supported #postCompatContainer {
+                position: static;
+                left: 0;
+                width: 500px;
+                margin-top: 20px;
+            }
+        </style>
+    <link rel="stylesheet" type="text/css" href="lounge.css"><style id="css_1375630194696"></style><script src="event.js" async="" charset="UTF-8"></script><script src="event(1).js" async="" charset="UTF-8"></script></head>
+
+    <body class="serif">
+        <div id="notSupported">
+            <p class="old-browser">Sorry, the browser you are using is not currently supported. Disqus actively supports the following browsers:</p>
+            <ul class="old-browser">
+                <li><a href="http://www.mozilla.org/firefox/">Firefox</a></li>
+                <li><a href="https://www.google.com/chrome/">Chrome</a></li>
+                <li><a href="http://windows.microsoft.com/en-us/internet-explorer/products/ie/home">Internet Explorer 8+</a></li>
+                <li><a href="http://www.apple.com/safari/">Safari</a></li>
+            </ul>
+            
+            <p class="legacy-mode">This page is forcing your browser to use legacy mode, which is not compatible with Disqus. Please see our <a href="http://help.disqus.com/customer/portal/articles/666084-troubleshooting-disqus-2012-in-internet-explorer-8-9">troubleshooting guide</a> to get more information about this error.</p>
+        </div>
+
+        <div id="notFound" style="display:none;">
+            <p>We were unable to load Disqus. If you are a moderator please see our <a href="http://docs.disqus.com/help/83/"> troubleshooting guide</a>. </p>
+        </div>
+
+        
+
+
+<!--[if lte IE 8]>
+<script src="http://mediacdn.disqus.com/1375384862/build/next/ie8.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<script src="http://mediacdn.disqus.com/1375384862/build/next/ie9.js"></script>
+<![endif]-->
+
+
+        <!--
+        
+        -->
+        <script type="text/json" id="disqus-forumData">{"session":{"canModerate":false,"isReadOnly":null,"audienceSyncVerified":false,"canReply":true,"notificationCount":null,"mustVerifyEmail":false},"features":{},"forum":{"name":"Neo4j Graph Database","language":"en","settings":{"allowAnonPost":true,"allowMedia":true,"moderatorText":"","typeface":"auto","hasReactions":true,"audienceSyncEnabled":false,"ssoRequired":false,"backplaneEnabled":false,"colorScheme":"auto","linkAffiliationEnabled":true},"url":"http://www.neo4j.org","favicon":{"permalink":"http://disqus.com/api/forums/favicons/neo4j.jpg","cache":"http://mediacdn.disqus.com/1375384862/images/favicon-default.png"},"pk":561043,"founder":"233389","id":"neo4j"}}</script>
+        <!--
+
+--><script type="text/json" id="disqus-threadData">{"cursor":{"hasPrev":false,"prev":null,"total":8,"hasNext":false,"next":"1:0:0"},"code":0,"response":{"lastModified":1370683663,"posts":[{"isFlagged":false,"forum":"neo4j","parent":null,"author":{"username":"jeffrey_lewis","about":"","name":"Jeffrey Lewis","url":"","isAnonymous":false,"rep":1.2323199999999999,"profileUrl":"http://disqus.com/jeffrey_lewis/","emailHash":"c6a8b4747dd43ffd2b2e7508f3c53fe6","reputation":1.2323199999999999,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2013-05-30T20:02:34","id":"53552227","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/jeffrey_lewis.jpg","cache":"http://mediacdn.disqus.com/uploads/users/5355/2227/avatar32.jpg?1369944167"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/jeffrey_lewis.jpg","cache":"http://mediacdn.disqus.com/uploads/users/5355/2227/avatar92.jpg?1369944167","large":{"permalink":"http://disqus.com/api/users/avatars/jeffrey_lewis.jpg","cache":"http://mediacdn.disqus.com/uploads/users/5355/2227/avatar92.jpg?1369944167"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"I'd like to secure the Traversal REST endpoints.  Section 28.1.2 states, \"To secure these, either disable them completely by removing offending plugins from the server classpath ...\"\n\nI've been reading the documentation and I don't see any explanation of where these plugins are located, nor what they are called and how to disable them.  Can anyone give me details regarding the above?","createdAt":"2013-05-30T20:02:45","id":"914176988","thread":"435097128","depth":0,"numReports":0,"likes":2,"isEdited":false,"message":"\u003cp>I'd like to secure the Traversal REST endpoints.  Section 28.1.2 states, \"To secure these, either disable them completely by removing offending plugins from the server classpath ...\"\u003c/p>\n\n\u003cp>I've been reading the documentation and I don't see any explanation of where these plugins are located, nor what they are called and how to disable them.  Can anyone give me details regarding the above?\u003c/p>","isSpam":false,"isHighlighted":false,"points":2},{"isFlagged":false,"forum":"neo4j","parent":914176988,"author":{"username":"davidash","about":"","name":"David Ash","url":"","isAnonymous":false,"rep":1.232222,"profileUrl":"http://disqus.com/davidash/","emailHash":"ac5be994c386c2aa30d222d25290672f","reputation":1.232222,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2013-06-08T09:25:25","id":"55445920","avatar":{"small":{"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=ac5be994c386c2aa30d222d25290672f","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=ac5be994c386c2aa30d222d25290672f"},"large":{"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=ac5be994c386c2aa30d222d25290672f","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=ac5be994c386c2aa30d222d25290672f"},"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=ac5be994c386c2aa30d222d25290672f","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=ac5be994c386c2aa30d222d25290672f"}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"I agree that the documentation is vague.  The situation is almost humorous: \"WARNING: There is the potential for arbitrary code execution.  Make sure you disable that -- but we don't tell you how.  Good luck.\"\n\n\nOf course, if my machine was rooted I probably wouldn't find it humorous any longer.  So... any chance we can get a link with detailed instructions?","createdAt":"2013-06-08T09:27:43","id":"923153260","thread":"435097128","depth":1,"numReports":0,"likes":1,"isEdited":true,"message":"\u003cp>I agree that the documentation is vague.  The situation is almost humorous: \"WARNING: There is the potential for arbitrary code execution.  Make sure you disable that -- but we don't tell you how.  Good luck.\"\u003c/p>\n\n\u003cp>Of course, if my machine was rooted I probably wouldn't find it humorous any longer.  So... any chance we can get a link with detailed instructions?\u003c/p>","isSpam":false,"isHighlighted":false,"points":1},{"isFlagged":false,"forum":"neo4j","parent":null,"author":{"username":"disqus_SP0W7GnjgU","about":"","name":"jim","url":"","isAnonymous":false,"rep":1.232591,"profileUrl":"http://disqus.com/disqus_SP0W7GnjgU/","emailHash":"3c6d209f33e9573842f53e89a3aa00e8","reputation":1.232591,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2013-04-17T06:46:59","id":"48372630","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/disqus_SP0W7GnjgU.jpg","cache":"http://mediacdn.disqus.com/uploads/users/4837/2630/avatar32.jpg?1366187232"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/disqus_SP0W7GnjgU.jpg","cache":"http://mediacdn.disqus.com/uploads/users/4837/2630/avatar92.jpg?1366187232","large":{"permalink":"http://disqus.com/api/users/avatars/disqus_SP0W7GnjgU.jpg","cache":"http://mediacdn.disqus.com/uploads/users/4837/2630/avatar92.jpg?1366187232"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Hi, If i use the ha database in java(embeded),what is the capacity and performance is ?","createdAt":"2013-04-17T06:49:26","id":"865786404","thread":"435097128","depth":0,"numReports":0,"likes":1,"isEdited":false,"message":"\u003cp>Hi, If i use the ha database in java(embeded),what is the capacity and performance is ?\u003c/p>","isSpam":false,"isHighlighted":false,"points":1},{"isFlagged":false,"forum":"neo4j","parent":865786404,"author":{"username":"nawroth","about":"Documentation manager at neo4j.org / neo technology.","name":"nawroth","url":"http://www.anders.nawroth.se/","isAnonymous":false,"rep":1.3761189999999999,"profileUrl":"http://disqus.com/nawroth/","emailHash":"7ac22e95ab5eed66dad7ddea6fd70182","reputation":1.3761189999999999,"location":"Scania, Sweden","isPrivate":false,"isPrimary":true,"joinedAt":"2009-02-27T13:57:39","id":"233389","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/nawroth.jpg","cache":"http://mediacdn.disqus.com/uploads/users/23/3389/avatar32.jpg?1375273538"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/nawroth.jpg","cache":"http://mediacdn.disqus.com/uploads/users/23/3389/avatar92.jpg?1375273538","large":{"permalink":"http://disqus.com/api/users/avatars/nawroth.jpg","cache":"http://mediacdn.disqus.com/uploads/users/23/3389/avatar92.jpg?1375273538"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Capacity is the same for embedded/server, performance gets better as you won't send the data over the network to the DB.","createdAt":"2013-04-22T13:42:37","id":"872213651","thread":"435097128","depth":1,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>Capacity is the same for embedded/server, performance gets better as you won't send the data over the network to the DB.\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"neo4j","parent":null,"author":{"username":"yougaoxiao","about":"","name":"yougao xiao","url":"","isAnonymous":false,"rep":1.232124,"profileUrl":"http://disqus.com/yougaoxiao/","emailHash":"c752fd048616888e32f7ba3be88099b8","reputation":1.232124,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2013-06-03T14:37:10","id":"54336773","avatar":{"small":{"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=c752fd048616888e32f7ba3be88099b8","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=c752fd048616888e32f7ba3be88099b8"},"large":{"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c752fd048616888e32f7ba3be88099b8","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c752fd048616888e32f7ba3be88099b8"},"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c752fd048616888e32f7ba3be88099b8","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c752fd048616888e32f7ba3be88099b8"}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"To insert data with embedded api\uff0cwhile query on the HA server\uff0cwhat should i do?thank you~","createdAt":"2013-06-03T14:39:10","id":"917650650","thread":"435097128","depth":0,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>To insert data with embedded api\uff0cwhile query on the HA server\uff0cwhat should i do?thank you~\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"neo4j","parent":null,"author":{"name":"Cedric","url":"","profileUrl":"http://disqus.com/guest/b2bf90891f7ea72bfa022e089b74e518/","emailHash":"b2bf90891f7ea72bfa022e089b74e518","avatar":{"small":{"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=b2bf90891f7ea72bfa022e089b74e518","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=b2bf90891f7ea72bfa022e089b74e518"},"large":{"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b2bf90891f7ea72bfa022e089b74e518","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b2bf90891f7ea72bfa022e089b74e518"},"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b2bf90891f7ea72bfa022e089b74e518","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b2bf90891f7ea72bfa022e089b74e518"},"isAnonymous":true},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Is there a way to retrieve the GraphDatabaseService instance in the isAuthorized method since neo4j-2.0.0-M02?","createdAt":"2013-05-23T06:08:30","id":"905581480","thread":"435097128","depth":0,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>Is there a way to retrieve the GraphDatabaseService instance in the isAuthorized method since neo4j-2.0.0-M02?\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"neo4j","parent":null,"author":{"name":"Jo","url":"","profileUrl":"http://disqus.com/guest/318c70aa27352d59393621aa2644e9df/","emailHash":"318c70aa27352d59393621aa2644e9df","avatar":{"small":{"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=318c70aa27352d59393621aa2644e9df","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=318c70aa27352d59393621aa2644e9df"},"large":{"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=318c70aa27352d59393621aa2644e9df","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=318c70aa27352d59393621aa2644e9df"},"permalink":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=318c70aa27352d59393621aa2644e9df","cache":"http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1375300265%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=318c70aa27352d59393621aa2644e9df"},"isAnonymous":true},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"s/certififacate/certificate/","createdAt":"2012-10-12T16:05:40","id":"679916862","thread":"435097128","depth":0,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>s/certififacate/certificate/\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"neo4j","parent":679916862,"author":{"username":"nawroth","about":"Documentation manager at neo4j.org / neo technology.","name":"nawroth","url":"http://www.anders.nawroth.se/","isAnonymous":false,"rep":1.3761189999999999,"profileUrl":"http://disqus.com/nawroth/","emailHash":"7ac22e95ab5eed66dad7ddea6fd70182","reputation":1.3761189999999999,"location":"Scania, Sweden","isPrivate":false,"isPrimary":true,"joinedAt":"2009-02-27T13:57:39","id":"233389","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/nawroth.jpg","cache":"http://mediacdn.disqus.com/uploads/users/23/3389/avatar32.jpg?1375273538"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/nawroth.jpg","cache":"http://mediacdn.disqus.com/uploads/users/23/3389/avatar92.jpg?1375273538","large":{"permalink":"http://disqus.com/api/users/avatars/nawroth.jpg","cache":"http://mediacdn.disqus.com/uploads/users/23/3389/avatar92.jpg?1375273538"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Thanks for notifying us!","createdAt":"2012-10-16T13:49:23","id":"684159304","thread":"435097128","depth":1,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>Thanks for notifying us!\u003c/p>","isSpam":false,"isHighlighted":false,"points":0}],"thread":{"feed":"http://neo4j.disqus.com/securing_access_to_the_neo4j_server/latest.rss","reactions":0,"uploadAdd":"http://neo4j.disqus.com/thread/securing_access_to_the_neo4j_server/async_media_upload/","dislikes":0,"likes":0,"message":"","id":"435097128","createdAt":"2011-10-05T19:04:42","category":"569915","author":"233389","userScore":0,"moderators":[16918048,2258464,234243,233989,5918474,18436908,233389,58749358,19897776,18363892,18376213,235609],"isDeleted":false,"hasStreaming":false,"uploadRemove":"http://neo4j.disqus.com/thread/securing_access_to_the_neo4j_server/async_media_remove/","isClosed":false,"link":"http://docs.neo4j.org/chunked/snapshot/security-server.html","slug":"securing_access_to_the_neo4j_server","forum":"neo4j","identifiers":["manual-security-server"],"posts":8,"userSubscription":false,"title":"Securing access to the Neo4j Server"}},"order":"popular"}</script><div id="postCompatContainer"><ul><li><h4><a href="http://disqus.com/jeffrey_lewis/">Jeffrey Lewis</a></h4><div><p>I'd like to secure the Traversal REST endpoints.  Section 28.1.2 states, "To secure these, either disable them completely by removing offending plugins from the server classpath ..."</p><p>I've been reading the documentation and I don't see any explanation of where these plugins are located, nor what they are called and how to disable them.  Can anyone give me details regarding the above?</p></div></li><li><h4><a href="http://disqus.com/davidash/">David Ash</a></h4><div><p>I agree that the documentation is vague.  The situation is almost humorous: "WARNING: There is the potential for arbitrary code execution.  Make sure you disable that -- but we don't tell you how.  Good luck."</p><p>Of course, if my machine was rooted I probably wouldn't find it humorous any longer.  So... any chance we can get a link with detailed instructions?</p></div></li><li><h4><a href="http://disqus.com/disqus_SP0W7GnjgU/">jim</a></h4><div><p>Hi, If i use the ha database in java(embeded),what is the capacity and performance is ?</p></div></li><li><h4><a href="http://disqus.com/nawroth/">nawroth</a></h4><div><p>Capacity is the same for embedded/server, performance gets better as you won't send the data over the network to the DB.</p></div></li><li><h4><a href="http://disqus.com/yougaoxiao/">yougao xiao</a></h4><div><p>To insert data with embedded api，while query on the HA server，what should i do?thank you~</p></div></li><li><h4><a href="http://disqus.com/guest/b2bf90891f7ea72bfa022e089b74e518/">Cedric</a></h4><div><p>Is there a way to retrieve the GraphDatabaseService instance in the isAuthorized method since neo4j-2.0.0-M02?</p></div></li><li><h4><a href="http://disqus.com/guest/318c70aa27352d59393621aa2644e9df/">Jo</a></h4><div><p>s/certififacate/certificate/</p></div></li><li><h4><a href="http://disqus.com/nawroth/">nawroth</a></h4><div><p>Thanks for notifying us!</p></div></li></ul></div>
+
+
+        <div id="fixed-content"></div>
+
+        
+        <script src="load.js"></script>
+        
+    
+
+<div id="layout">
+    
+
+    <header>
+        
+            
+    <div id="discovery-top"></div>
+
+    <nav id="global-nav">
+        <div id="thread-votes" class="pull-right"><div class="thread-likes " data-role="vote-button">
+        <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="upvote" title="Star this discussion">
+            <span class="notch"></span>
+            <span class="icon-star"></span>
+            <span class="counter"><span data-role="like-count">0</span></span>
+            <img src="checkx2.png" class="check-mark" alt="Voted" width="10" height="8">
+        </a>
+    </div></div>
+
+        <div id="realtime-toggle"></div>
+
+        <ul>
+            <li id="post-count"><h4>
+            8 comments
+        </h4></li>
+        </ul>
+    </nav>
+
+        
+
+        <div id="form"><form action="" class="reply  ">
+    
+<header class="fullscreen-header fullscreen compose-header">
+        <nav class="global-nav">
+            <ul>
+                <li class="cancel">
+                    <button class="btn btn-icon btn-blank cancel" title="Cancel" type="button" data-action="cancel"><span class="icon icon-cancel"></span></button>
+                </li>
+                <li class="tab-title">
+                    <hgroup>
+                        
+                            <h1>New Comment</h1>
+                        
+                        
+                            <button class="btn btn-dropdown" data-action="toggle-login-buttons" type="button">
+                                <h2>Sign in to post <i class="icon icon-arrow"></i></h2>
+                            </button>
+                        
+                    </hgroup>
+                </li>
+                <li class="compose">
+                    <button class="btn highlight">Post </button>
+                </li>
+            </ul>
+        </nav>
+        
+    <ul data-role="login-buttons" class="services login-buttons">
+        
+            
+        
+        <li class="auth-disqus">
+            <a data-action="auth:disqus" href="http://docs.neo4j.org/chunked/stable/security-server.html#" title="Disqus"><i class="icon-disqus"></i></a>
+        </li>
+        <li class="auth-facebook">
+            <a data-action="auth:facebook" href="http://docs.neo4j.org/chunked/stable/security-server.html#" title="Facebook"><i class="icon-facebook-circle"></i></a>
+        </li>
+        <li class="auth-twitter">
+            <a data-action="auth:twitter" href="http://docs.neo4j.org/chunked/stable/security-server.html#" title="Twitter"><i class="icon-twitter-circle"></i></a>
+        </li>
+        <li class="auth-google">
+            <a data-action="auth:google" href="http://docs.neo4j.org/chunked/stable/security-server.html#" title="Google"><i class="icon-google-plus-circle"></i></a>
+        </li>
+    </ul>
+
+    </header>
+
+
+    <div class="alert error" style="display:none" role="alert">
+        <a class="close" data-action="dismiss-alert" title="Dismiss">×</a>
+        <span><!-- error goes here --></span>
+    </div>
+
+    <div class="postbox">
+        <div class="avatar">
+            
+                <span class="user">
+                    <img data-role="user-avatar" src="noavatar92.png">
+                </span>
+            
+        </div>
+
+            <div class="textarea-wrapper" data-role="textarea">
+                <div class="textarea" contenteditable="true" tabindex="0" role="textbox" aria-multiline="true" style="overflow: auto; max-height: 350px;"><span class="placeholder">Leave a message...</span></div>
+                <div data-role="drag-drop-placeholder" class="media-drag-hover" style="display: none">
+                    <div class="drag-text">
+                        ⬇ Drag and drop your images here to upload them.
+                    </div>
+                </div>
+                
+                    <div class="media-preview empty" data-role="media-preview">
+                        <ul data-role="media-preview-list">
+                        
+                        </ul>
+                        <div class="media-expanded empty" data-role="media-preview-expanded">
+                            
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-role="media-preview-expanded-image">
+                        </div>
+                    </div>
+                
+                <div class="post-actions">
+                    <ul class="wysiwyg">
+                        
+                            <li>
+                                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" tabindex="-1" data-action="attach" class="attach" title="Upload Images"><span>Attach</span></a>
+                                <input type="file" data-role="media-upload" tabindex="-1" class="regular" accept="image/*">
+                            </li>
+                        
+                        
+                    </ul>
+                    
+                    
+                </div>
+            <div></div></div>
+            <section data-role="auth-or-ident" class="auth-section logged-out">
+                
+                    <div class="connect">
+                        <h6>Sign in with</h6>
+                        
+    <ul data-role="login-buttons" class="services login-buttons">
+        
+            
+        
+        <li class="auth-disqus">
+            <a data-action="auth:disqus" href="http://docs.neo4j.org/chunked/stable/security-server.html#" title="Disqus"><i class="icon-disqus"></i></a>
+        </li>
+        <li class="auth-facebook">
+            <a data-action="auth:facebook" href="http://docs.neo4j.org/chunked/stable/security-server.html#" title="Facebook"><i class="icon-facebook-circle"></i></a>
+        </li>
+        <li class="auth-twitter">
+            <a data-action="auth:twitter" href="http://docs.neo4j.org/chunked/stable/security-server.html#" title="Twitter"><i class="icon-twitter-circle"></i></a>
+        </li>
+        <li class="auth-google">
+            <a data-action="auth:google" href="http://docs.neo4j.org/chunked/stable/security-server.html#" title="Google"><i class="icon-google-plus-circle"></i></a>
+        </li>
+    </ul>
+
+                    </div>
+                    
+<div class="guest">
+    <h6 class="guest-form-title">
+        
+            or pick a name
+        
+    </h6>
+
+    <div class="what-is-disqus help-icon">
+        <div id="rules" class="tooltip show">
+            <h3>DISQUS is a conversation network</h3>
+            <ul>
+                <li><span>Disqus never moderates or censors. The rules on this community are its own.</span></li>
+                <li><span>Your email is safe with us. It's only used for moderation and optional notifications.</span></li>
+                <li><span>Don't be a jerk or do anything illegal. Everything is easier that way.</span></li>
+                </ul>
+            <p class="clearfix"><a href="http://docs.disqus.com/kb/terms-and-policies/" class="btn btn-small" target="_blank">Read full terms and conditions</a></p>
+        </div>
+    </div>
+
+    <p class="input-wrapper">
+        <input type="text" placeholder="Name" name="author-name" maxlength="30">
+    </p>
+
+    <div class="guest-details " data-role="guest-details">
+        <p class="input-wrapper">
+            <input type="email" placeholder="Email" name="author-email">
+        </p>
+
+        
+            <p class="input-wrapper">
+                <input type="password" placeholder="Password" name="author-password">
+            </p>
+            
+                <div class="guest-checkbox">
+                    <label>
+                        <input type="checkbox" name="author-guest">
+                        I'd rather post as guest
+                    </label>
+                </div>
+            
+        
+
+    </div>
+</div>
+<div class="proceed">
+    
+         <button type="submit" class="btn submit" aria-label="Post"><span class="icon-proceed"></span></button>
+        <button type="submit" class="btn next" aria-label="Next"><span class="icon-proceed"></span></button>
+    
+</div>
+
+                
+                
+            </section>
+    </div>
+</form></div>
+
+        
+            
+    <div id="main-nav" class="nav">
+        <ul>
+            
+<li data-role="post-sort" class="active dropdown">
+    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-nav="conversation" class="dropdown-toggle publisher-nav-color" data-toggle="dropdown">
+        Best
+        
+        
+        <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+        <li class="selected">
+            <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="sort" data-sort="popular">Best</a>
+        </li>
+
+        <li>
+            <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="sort" data-sort="desc">Newest</a>
+        </li>
+
+        <li>
+            <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="sort" data-sort="asc">Oldest</a>
+        </li>
+    </ul>
+</li>
+
+
+            <li><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-nav="community" class="publisher-nav-color" id="community-tab">Community</a></li>
+            <li><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-nav="dashboard" style="display:none" class="publisher-nav-color">My Disqus <span class="notification-count" data-role="notification-count" style="display:none"></span></a></li>
+
+            <li class="user-menu dropdown" data-role="logout"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="dropdown-toggle" data-toggle="dropdown">
+        <span class="cog"><i aria-hidden="true" class="icon-cog"></i></span> <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+        
+        
+			
+            	<li>
+                	<a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="auth:disqus">Login</a>
+            	</li>
+        	
+        
+
+        
+
+        
+        <li>
+            <a href="https://www.surveymonkey.com/s/5RBPTTZ?c=http%3A%2F%2Fdocs.neo4j.org%2Fchunked%2Fstable%2Fsecurity-server.html" target="_blank">Send Feedback</a>
+        </li>
+        
+
+        
+
+        
+    </ul></li>
+
+            <li id="thread-share-menu" class="share-menu dropdown">
+                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="dropdown-toggle" data-toggle="dropdown" title="Share">
+                    <span class="label">Share</span> <span class="icon-export"></span>
+                </a>
+                <ul class="share-menu dropdown-menu pull-right">
+                    <li class="share">Share this discussion on
+                        <ul>
+                            <li class="twitter">
+                                <a data-action="share:twitter" href="http://docs.neo4j.org/chunked/stable/security-server.html#">Twitter</a>
+                            </li>
+                            <li class="facebook">
+                                <a data-action="share:facebook" href="http://docs.neo4j.org/chunked/stable/security-server.html#">Facebook</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+
+        
+    </header>
+
+    <section id="conversation" data-role="main" data-outbound-link="embed:comments">
+        <div id="posts">
+            <button class="alert realtime" style="display: none;" data-action="load-queued-posts" data-role="realtime-notification">
+                <!-- Show 2 new posts. -->
+            </button>
+
+            <!-- This message appears when there are no comments -->
+            <div id="no-posts" style="display: none;">No one has commented yet.</div>
+
+            <ul id="post-list" class="post-list"><li class="post
+    " id="post-914176988">
+
+    <div data-role="post-content" class="post-content ">
+        <div class="indicator"></div>
+
+        
+            
+
+                
+                    <div class="avatar hovercard">
+                        <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="user" data-action="profile" data-user="53552227">
+                            <img alt="Avatar" src="avatar92.jpg">
+                        </a>
+                    </div>
+                
+
+                <div class="post-body">
+                    <header>
+                        
+                            <span class="author publisher-anchor-color"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="profile" data-user="53552227">Jeffrey Lewis</a></span>
+                            
+                        
+
+                        
+
+                        <!-- Post Meta is displayed on mobile only -->
+                        <div class="post-meta">
+                            <span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+                            
+                                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-914176988" data-role="relative-time" class="time-ago" title="Thursday, May 30 2013 9:02 PM">
+                                    2 months ago
+                                </a>
+                                <span class="bullet total-votes-bullet" aria-hidden="true">•</span>
+                                <span class="total-votes">
+                                    2 upvotes
+                                </span>
+                            
+                        </div>
+
+                        <ul class="post-menu">
+
+                            <li class="collapse"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Collapse">−</a></li>
+                            <li class="expand" style="display:none"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Expand">+</a></li>
+
+                            <li class="dropdown" data-role="menu" role="menu">
+                                
+    
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://docs.neo4j.org/chunked/stable/security-server.html#"><b class="caret"></b></a>
+        <ul class="dropdown-menu invisible">
+            
+                
+                <li><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="flag">Flag as inappropriate</a></li>
+            
+        </ul>
+    
+
+                            </li>
+                        </ul>
+                    </header>
+
+                    <!-- Use message-container to manage visible height of the post message (including media) -->
+                    <div class="post-message-container" data-role="message-container">
+                        <!-- Use message-content to measure post content (including media) -->
+                        <div data-role="message-content">
+                            <div class="post-message publisher-anchor-color " data-role="message">
+                                
+                                    <p>I'd like to secure the Traversal REST endpoints.  Section 28.1.2 states, "To secure these, either disable them completely by removing offending plugins from the server classpath ..."</p>
+
+<p>I've been reading the documentation and I don't see any explanation of where these plugins are located, nor what they are called and how to disable them.  Can anyone give me details regarding the above?</p>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="message-shadow hidden" data-role="message-shadow"></div>
+                    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="more-button hidden" title="see more" data-action="post-expand">see more</a>
+
+                    <footer>
+                        
+    
+        <menu>
+            <li class="realtime" data-role="realtime-notification:914176988">
+                <span style="display:none;" class="realtime-replies"></span>
+                <a style="display:none;" href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="btn small" data-action="load-queued-posts"></a>
+                 <!-- Realtime notification about new replies -->
+            </li>
+
+            <li class="voting" data-role="voting">
+                
+    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="vote-up  count-2" data-action="upvote" title="">
+        <span class="updatable count" data-role="likes">2</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+    </a>
+    <a class="vote-down  count-0" title="Vote down">
+        <span class="updatable count" data-role="dislikes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+        <span class="tooltip">You must sign in to down-vote this post.</span>
+    </a>
+
+            </li>
+            <li class="bullet" aria-hidden="true">•</li>
+
+            
+                
+
+                
+                    <li class="reply"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="reply"><span class="icon icon-mobile icon-reply"></span><span class="text">Reply</span></a></li>
+                    <li class="bullet" aria-hidden="true">•</li>
+                
+            
+
+            <li class="share">
+                <a class="toggle"><span class="icon icon-mobile icon-share"></span><span class="text">Share ›</span></a>
+                <ul>
+                    <li class="twitter"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:twitter">Twitter</a></li>
+                    <li class="facebook"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:facebook">Facebook</a></li>
+                    <li class="link"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-914176988">Link</a></li>
+                </ul>
+            </li>
+        </menu>
+    
+
+                    </footer>
+                </div>
+
+             
+         
+
+        <div data-role="blacklist-form"></div>
+    </div>
+
+    <!-- Child comments are appended here -->
+    <ul data-role="children" class="children"><li class="post
+    " id="post-923153260">
+
+    <div data-role="post-content" class="post-content ">
+        <div class="indicator"></div>
+
+        
+            
+
+                
+                    <div class="avatar hovercard">
+                        <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="user" data-action="profile" data-user="55445920">
+                            <img alt="Avatar" src="avatar.php">
+                        </a>
+                    </div>
+                
+
+                <div class="post-body">
+                    <header>
+                        
+                            <span class="author publisher-anchor-color"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="profile" data-user="55445920">David Ash</a></span>
+                            
+                        
+
+                        
+                            <span><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-914176988" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> Jeffrey Lewis</a></span>
+                        
+
+                        <!-- Post Meta is displayed on mobile only -->
+                        <div class="post-meta">
+                            <span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+                            
+                                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-923153260" data-role="relative-time" class="time-ago" title="Saturday, June 8 2013 10:27 AM">
+                                    2 months ago
+                                </a>
+                                <span class="bullet total-votes-bullet" aria-hidden="true">•</span>
+                                <span class="total-votes">
+                                    1 upvotes
+                                </span>
+                            
+                        </div>
+
+                        <ul class="post-menu">
+
+                            <li class="collapse"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Collapse">−</a></li>
+                            <li class="expand" style="display:none"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Expand">+</a></li>
+
+                            <li class="dropdown" data-role="menu" role="menu">
+                                
+    
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://docs.neo4j.org/chunked/stable/security-server.html#"><b class="caret"></b></a>
+        <ul class="dropdown-menu invisible">
+            
+                
+                <li><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="flag">Flag as inappropriate</a></li>
+            
+        </ul>
+    
+
+                            </li>
+                        </ul>
+                    </header>
+
+                    <!-- Use message-container to manage visible height of the post message (including media) -->
+                    <div class="post-message-container" data-role="message-container">
+                        <!-- Use message-content to measure post content (including media) -->
+                        <div data-role="message-content">
+                            <div class="post-message publisher-anchor-color " data-role="message">
+                                
+                                    <p>I agree that the documentation is vague.  The situation is almost humorous: "WARNING: There is the potential for arbitrary code execution.  Make sure you disable that -- but we don't tell you how.  Good luck."</p>
+
+<p>Of course, if my machine was rooted I probably wouldn't find it humorous any longer.  So... any chance we can get a link with detailed instructions?</p>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="message-shadow hidden" data-role="message-shadow"></div>
+                    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="more-button hidden" title="see more" data-action="post-expand">see more</a>
+
+                    <footer>
+                        
+    
+        <menu>
+            <li class="realtime" data-role="realtime-notification:923153260">
+                <span style="display:none;" class="realtime-replies"></span>
+                <a style="display:none;" href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="btn small" data-action="load-queued-posts"></a>
+                 <!-- Realtime notification about new replies -->
+            </li>
+
+            <li class="voting" data-role="voting">
+                
+    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="vote-up  count-1" data-action="upvote" title="">
+        <span class="updatable count" data-role="likes">1</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+    </a>
+    <a class="vote-down  count-0" title="Vote down">
+        <span class="updatable count" data-role="dislikes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+        <span class="tooltip">You must sign in to down-vote this post.</span>
+    </a>
+
+            </li>
+            <li class="bullet" aria-hidden="true">•</li>
+
+            
+                
+
+                
+                    <li class="reply"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="reply"><span class="icon icon-mobile icon-reply"></span><span class="text">Reply</span></a></li>
+                    <li class="bullet" aria-hidden="true">•</li>
+                
+            
+
+            <li class="share">
+                <a class="toggle"><span class="icon icon-mobile icon-share"></span><span class="text">Share ›</span></a>
+                <ul>
+                    <li class="twitter"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:twitter">Twitter</a></li>
+                    <li class="facebook"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:facebook">Facebook</a></li>
+                    <li class="link"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-923153260">Link</a></li>
+                </ul>
+            </li>
+        </menu>
+    
+
+                    </footer>
+                </div>
+
+             
+         
+
+        <div data-role="blacklist-form"></div>
+    </div>
+
+    <!-- Child comments are appended here -->
+    <ul data-role="children" class="children"></ul>
+</li></ul>
+</li><li class="post
+    " id="post-865786404">
+
+    <div data-role="post-content" class="post-content ">
+        <div class="indicator"></div>
+
+        
+            
+
+                
+                    <div class="avatar hovercard">
+                        <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="user" data-action="profile" data-user="48372630">
+                            <img alt="Avatar" src="avatar92(1).jpg">
+                        </a>
+                    </div>
+                
+
+                <div class="post-body">
+                    <header>
+                        
+                            <span class="author publisher-anchor-color"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="profile" data-user="48372630">jim</a></span>
+                            
+                        
+
+                        
+
+                        <!-- Post Meta is displayed on mobile only -->
+                        <div class="post-meta">
+                            <span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+                            
+                                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-865786404" data-role="relative-time" class="time-ago" title="Wednesday, April 17 2013 7:49 AM">
+                                    4 months ago
+                                </a>
+                                <span class="bullet total-votes-bullet" aria-hidden="true">•</span>
+                                <span class="total-votes">
+                                    1 upvotes
+                                </span>
+                            
+                        </div>
+
+                        <ul class="post-menu">
+
+                            <li class="collapse"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Collapse">−</a></li>
+                            <li class="expand" style="display:none"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Expand">+</a></li>
+
+                            <li class="dropdown" data-role="menu" role="menu">
+                                
+    
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://docs.neo4j.org/chunked/stable/security-server.html#"><b class="caret"></b></a>
+        <ul class="dropdown-menu invisible">
+            
+                
+                <li><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="flag">Flag as inappropriate</a></li>
+            
+        </ul>
+    
+
+                            </li>
+                        </ul>
+                    </header>
+
+                    <!-- Use message-container to manage visible height of the post message (including media) -->
+                    <div class="post-message-container" data-role="message-container">
+                        <!-- Use message-content to measure post content (including media) -->
+                        <div data-role="message-content">
+                            <div class="post-message publisher-anchor-color " data-role="message">
+                                
+                                    <p>Hi, If i use the ha database in java(embeded),what is the capacity and performance is ?</p>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="message-shadow hidden" data-role="message-shadow"></div>
+                    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="more-button hidden" title="see more" data-action="post-expand">see more</a>
+
+                    <footer>
+                        
+    
+        <menu>
+            <li class="realtime" data-role="realtime-notification:865786404">
+                <span style="display:none;" class="realtime-replies"></span>
+                <a style="display:none;" href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="btn small" data-action="load-queued-posts"></a>
+                 <!-- Realtime notification about new replies -->
+            </li>
+
+            <li class="voting" data-role="voting">
+                
+    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="vote-up  count-1" data-action="upvote" title="">
+        <span class="updatable count" data-role="likes">1</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+    </a>
+    <a class="vote-down  count-0" title="Vote down">
+        <span class="updatable count" data-role="dislikes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+        <span class="tooltip">You must sign in to down-vote this post.</span>
+    </a>
+
+            </li>
+            <li class="bullet" aria-hidden="true">•</li>
+
+            
+                
+
+                
+                    <li class="reply"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="reply"><span class="icon icon-mobile icon-reply"></span><span class="text">Reply</span></a></li>
+                    <li class="bullet" aria-hidden="true">•</li>
+                
+            
+
+            <li class="share">
+                <a class="toggle"><span class="icon icon-mobile icon-share"></span><span class="text">Share ›</span></a>
+                <ul>
+                    <li class="twitter"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:twitter">Twitter</a></li>
+                    <li class="facebook"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:facebook">Facebook</a></li>
+                    <li class="link"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-865786404">Link</a></li>
+                </ul>
+            </li>
+        </menu>
+    
+
+                    </footer>
+                </div>
+
+             
+         
+
+        <div data-role="blacklist-form"></div>
+    </div>
+
+    <!-- Child comments are appended here -->
+    <ul data-role="children" class="children"><li class="post
+    " id="post-872213651">
+
+    <div data-role="post-content" class="post-content ">
+        <div class="indicator"></div>
+
+        
+            
+
+                
+                    <div class="avatar hovercard">
+                        <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="user" data-action="profile" data-user="233389">
+                            <img alt="Avatar" src="avatar92(2).jpg">
+                        </a>
+                    </div>
+                
+
+                <div class="post-body">
+                    <header>
+                        
+                            <span class="author publisher-anchor-color"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="profile" data-user="233389">nawroth</a></span>
+                            
+                                <span class="badge moderator">Mod</span>
+                            
+                        
+
+                        
+                            <span><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-865786404" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> jim</a></span>
+                        
+
+                        <!-- Post Meta is displayed on mobile only -->
+                        <div class="post-meta">
+                            <span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+                            
+                                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-872213651" data-role="relative-time" class="time-ago" title="Monday, April 22 2013 2:42 PM">
+                                    3 months ago
+                                </a>
+                                <span class="bullet total-votes-bullet" aria-hidden="true">•</span>
+                                <span class="total-votes">
+                                    0 upvotes
+                                </span>
+                            
+                        </div>
+
+                        <ul class="post-menu">
+
+                            <li class="collapse"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Collapse">−</a></li>
+                            <li class="expand" style="display:none"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Expand">+</a></li>
+
+                            <li class="dropdown" data-role="menu" role="menu">
+                                
+    
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://docs.neo4j.org/chunked/stable/security-server.html#"><b class="caret"></b></a>
+        <ul class="dropdown-menu invisible">
+            
+                
+                <li><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="flag">Flag as inappropriate</a></li>
+            
+        </ul>
+    
+
+                            </li>
+                        </ul>
+                    </header>
+
+                    <!-- Use message-container to manage visible height of the post message (including media) -->
+                    <div class="post-message-container" data-role="message-container">
+                        <!-- Use message-content to measure post content (including media) -->
+                        <div data-role="message-content">
+                            <div class="post-message publisher-anchor-color " data-role="message">
+                                
+                                    <p>Capacity is the same for embedded/server, performance gets better as you won't send the data over the network to the DB.</p>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="message-shadow hidden" data-role="message-shadow"></div>
+                    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="more-button hidden" title="see more" data-action="post-expand">see more</a>
+
+                    <footer>
+                        
+    
+        <menu>
+            <li class="realtime" data-role="realtime-notification:872213651">
+                <span style="display:none;" class="realtime-replies"></span>
+                <a style="display:none;" href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="btn small" data-action="load-queued-posts"></a>
+                 <!-- Realtime notification about new replies -->
+            </li>
+
+            <li class="voting" data-role="voting">
+                
+    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+        <span class="updatable count" data-role="likes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+    </a>
+    <a class="vote-down  count-0" title="Vote down">
+        <span class="updatable count" data-role="dislikes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+        <span class="tooltip">You must sign in to down-vote this post.</span>
+    </a>
+
+            </li>
+            <li class="bullet" aria-hidden="true">•</li>
+
+            
+                
+
+                
+                    <li class="reply"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="reply"><span class="icon icon-mobile icon-reply"></span><span class="text">Reply</span></a></li>
+                    <li class="bullet" aria-hidden="true">•</li>
+                
+            
+
+            <li class="share">
+                <a class="toggle"><span class="icon icon-mobile icon-share"></span><span class="text">Share ›</span></a>
+                <ul>
+                    <li class="twitter"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:twitter">Twitter</a></li>
+                    <li class="facebook"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:facebook">Facebook</a></li>
+                    <li class="link"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-872213651">Link</a></li>
+                </ul>
+            </li>
+        </menu>
+    
+
+                    </footer>
+                </div>
+
+             
+         
+
+        <div data-role="blacklist-form"></div>
+    </div>
+
+    <!-- Child comments are appended here -->
+    <ul data-role="children" class="children"></ul>
+</li></ul>
+</li><li class="post
+    " id="post-917650650">
+
+    <div data-role="post-content" class="post-content ">
+        <div class="indicator"></div>
+
+        
+            
+
+                
+                    <div class="avatar hovercard">
+                        <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="user" data-action="profile" data-user="54336773">
+                            <img alt="Avatar" src="avatar(1).php">
+                        </a>
+                    </div>
+                
+
+                <div class="post-body">
+                    <header>
+                        
+                            <span class="author publisher-anchor-color"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="profile" data-user="54336773">yougao xiao</a></span>
+                            
+                        
+
+                        
+
+                        <!-- Post Meta is displayed on mobile only -->
+                        <div class="post-meta">
+                            <span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+                            
+                                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-917650650" data-role="relative-time" class="time-ago" title="Monday, June 3 2013 3:39 PM">
+                                    2 months ago
+                                </a>
+                                <span class="bullet total-votes-bullet" aria-hidden="true">•</span>
+                                <span class="total-votes">
+                                    0 upvotes
+                                </span>
+                            
+                        </div>
+
+                        <ul class="post-menu">
+
+                            <li class="collapse"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Collapse">−</a></li>
+                            <li class="expand" style="display:none"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Expand">+</a></li>
+
+                            <li class="dropdown" data-role="menu" role="menu">
+                                
+    
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://docs.neo4j.org/chunked/stable/security-server.html#"><b class="caret"></b></a>
+        <ul class="dropdown-menu invisible">
+            
+                
+                <li><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="flag">Flag as inappropriate</a></li>
+            
+        </ul>
+    
+
+                            </li>
+                        </ul>
+                    </header>
+
+                    <!-- Use message-container to manage visible height of the post message (including media) -->
+                    <div class="post-message-container" data-role="message-container">
+                        <!-- Use message-content to measure post content (including media) -->
+                        <div data-role="message-content">
+                            <div class="post-message publisher-anchor-color " data-role="message">
+                                
+                                    <p>To insert data with embedded api，while query on the HA server，what should i do?thank you~</p>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="message-shadow hidden" data-role="message-shadow"></div>
+                    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="more-button hidden" title="see more" data-action="post-expand">see more</a>
+
+                    <footer>
+                        
+    
+        <menu>
+            <li class="realtime" data-role="realtime-notification:917650650">
+                <span style="display:none;" class="realtime-replies"></span>
+                <a style="display:none;" href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="btn small" data-action="load-queued-posts"></a>
+                 <!-- Realtime notification about new replies -->
+            </li>
+
+            <li class="voting" data-role="voting">
+                
+    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+        <span class="updatable count" data-role="likes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+    </a>
+    <a class="vote-down  count-0" title="Vote down">
+        <span class="updatable count" data-role="dislikes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+        <span class="tooltip">You must sign in to down-vote this post.</span>
+    </a>
+
+            </li>
+            <li class="bullet" aria-hidden="true">•</li>
+
+            
+                
+
+                
+                    <li class="reply"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="reply"><span class="icon icon-mobile icon-reply"></span><span class="text">Reply</span></a></li>
+                    <li class="bullet" aria-hidden="true">•</li>
+                
+            
+
+            <li class="share">
+                <a class="toggle"><span class="icon icon-mobile icon-share"></span><span class="text">Share ›</span></a>
+                <ul>
+                    <li class="twitter"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:twitter">Twitter</a></li>
+                    <li class="facebook"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:facebook">Facebook</a></li>
+                    <li class="link"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-917650650">Link</a></li>
+                </ul>
+            </li>
+        </menu>
+    
+
+                    </footer>
+                </div>
+
+             
+         
+
+        <div data-role="blacklist-form"></div>
+    </div>
+
+    <!-- Child comments are appended here -->
+    <ul data-role="children" class="children"></ul>
+</li><li class="post
+    " id="post-905581480">
+
+    <div data-role="post-content" class="post-content ">
+        <div class="indicator"></div>
+
+        
+            
+
+                
+                    <div class="avatar">
+                        <div class="user"><img class="user" alt="Avatar" src="avatar(2).php"></div>
+                    </div>
+                
+
+                <div class="post-body">
+                    <header>
+                        
+                            <span class="author">Cedric</span>
+                        
+
+                        
+
+                        <!-- Post Meta is displayed on mobile only -->
+                        <div class="post-meta">
+                            <span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+                            
+                                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-905581480" data-role="relative-time" class="time-ago" title="Thursday, May 23 2013 7:08 AM">
+                                    2 months ago
+                                </a>
+                                <span class="bullet total-votes-bullet" aria-hidden="true">•</span>
+                                <span class="total-votes">
+                                    0 upvotes
+                                </span>
+                            
+                        </div>
+
+                        <ul class="post-menu">
+
+                            <li class="collapse"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Collapse">−</a></li>
+                            <li class="expand" style="display:none"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Expand">+</a></li>
+
+                            <li class="dropdown" data-role="menu" role="menu">
+                                
+    
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://docs.neo4j.org/chunked/stable/security-server.html#"><b class="caret"></b></a>
+        <ul class="dropdown-menu invisible">
+            
+                
+                <li><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="flag">Flag as inappropriate</a></li>
+            
+        </ul>
+    
+
+                            </li>
+                        </ul>
+                    </header>
+
+                    <!-- Use message-container to manage visible height of the post message (including media) -->
+                    <div class="post-message-container" data-role="message-container">
+                        <!-- Use message-content to measure post content (including media) -->
+                        <div data-role="message-content">
+                            <div class="post-message publisher-anchor-color " data-role="message">
+                                
+                                    <p>Is there a way to retrieve the GraphDatabaseService instance in the isAuthorized method since neo4j-2.0.0-M02?</p>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="message-shadow hidden" data-role="message-shadow"></div>
+                    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="more-button hidden" title="see more" data-action="post-expand">see more</a>
+
+                    <footer>
+                        
+    
+        <menu>
+            <li class="realtime" data-role="realtime-notification:905581480">
+                <span style="display:none;" class="realtime-replies"></span>
+                <a style="display:none;" href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="btn small" data-action="load-queued-posts"></a>
+                 <!-- Realtime notification about new replies -->
+            </li>
+
+            <li class="voting" data-role="voting">
+                
+    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+        <span class="updatable count" data-role="likes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+    </a>
+    <a class="vote-down  count-0" title="Vote down">
+        <span class="updatable count" data-role="dislikes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+        <span class="tooltip">You must sign in to down-vote this post.</span>
+    </a>
+
+            </li>
+            <li class="bullet" aria-hidden="true">•</li>
+
+            
+                
+
+                
+                    <li class="reply"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="reply"><span class="icon icon-mobile icon-reply"></span><span class="text">Reply</span></a></li>
+                    <li class="bullet" aria-hidden="true">•</li>
+                
+            
+
+            <li class="share">
+                <a class="toggle"><span class="icon icon-mobile icon-share"></span><span class="text">Share ›</span></a>
+                <ul>
+                    <li class="twitter"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:twitter">Twitter</a></li>
+                    <li class="facebook"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:facebook">Facebook</a></li>
+                    <li class="link"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-905581480">Link</a></li>
+                </ul>
+            </li>
+        </menu>
+    
+
+                    </footer>
+                </div>
+
+             
+         
+
+        <div data-role="blacklist-form"></div>
+    </div>
+
+    <!-- Child comments are appended here -->
+    <ul data-role="children" class="children"></ul>
+</li><li class="post
+    " id="post-679916862">
+
+    <div data-role="post-content" class="post-content ">
+        <div class="indicator"></div>
+
+        
+            
+
+                
+                    <div class="avatar">
+                        <div class="user"><img class="user" alt="Avatar" src="avatar(3).php"></div>
+                    </div>
+                
+
+                <div class="post-body">
+                    <header>
+                        
+                            <span class="author">Jo</span>
+                        
+
+                        
+
+                        <!-- Post Meta is displayed on mobile only -->
+                        <div class="post-meta">
+                            <span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+                            
+                                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-679916862" data-role="relative-time" class="time-ago" title="Friday, October 12 2012 5:05 PM">
+                                    10 months ago
+                                </a>
+                                <span class="bullet total-votes-bullet" aria-hidden="true">•</span>
+                                <span class="total-votes">
+                                    0 upvotes
+                                </span>
+                            
+                        </div>
+
+                        <ul class="post-menu">
+
+                            <li class="collapse"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Collapse">−</a></li>
+                            <li class="expand" style="display:none"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Expand">+</a></li>
+
+                            <li class="dropdown" data-role="menu" role="menu">
+                                
+    
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://docs.neo4j.org/chunked/stable/security-server.html#"><b class="caret"></b></a>
+        <ul class="dropdown-menu invisible">
+            
+                
+                <li><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="flag">Flag as inappropriate</a></li>
+            
+        </ul>
+    
+
+                            </li>
+                        </ul>
+                    </header>
+
+                    <!-- Use message-container to manage visible height of the post message (including media) -->
+                    <div class="post-message-container" data-role="message-container">
+                        <!-- Use message-content to measure post content (including media) -->
+                        <div data-role="message-content">
+                            <div class="post-message publisher-anchor-color " data-role="message">
+                                
+                                    <p>s/certififacate/certificate/</p>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="message-shadow hidden" data-role="message-shadow"></div>
+                    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="more-button hidden" title="see more" data-action="post-expand">see more</a>
+
+                    <footer>
+                        
+    
+        <menu>
+            <li class="realtime" data-role="realtime-notification:679916862">
+                <span style="display:none;" class="realtime-replies"></span>
+                <a style="display:none;" href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="btn small" data-action="load-queued-posts"></a>
+                 <!-- Realtime notification about new replies -->
+            </li>
+
+            <li class="voting" data-role="voting">
+                
+    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+        <span class="updatable count" data-role="likes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+    </a>
+    <a class="vote-down  count-0" title="Vote down">
+        <span class="updatable count" data-role="dislikes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+        <span class="tooltip">You must sign in to down-vote this post.</span>
+    </a>
+
+            </li>
+            <li class="bullet" aria-hidden="true">•</li>
+
+            
+                
+
+                
+                    <li class="reply"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="reply"><span class="icon icon-mobile icon-reply"></span><span class="text">Reply</span></a></li>
+                    <li class="bullet" aria-hidden="true">•</li>
+                
+            
+
+            <li class="share">
+                <a class="toggle"><span class="icon icon-mobile icon-share"></span><span class="text">Share ›</span></a>
+                <ul>
+                    <li class="twitter"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:twitter">Twitter</a></li>
+                    <li class="facebook"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:facebook">Facebook</a></li>
+                    <li class="link"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-679916862">Link</a></li>
+                </ul>
+            </li>
+        </menu>
+    
+
+                    </footer>
+                </div>
+
+             
+         
+
+        <div data-role="blacklist-form"></div>
+    </div>
+
+    <!-- Child comments are appended here -->
+    <ul data-role="children" class="children"><li class="post
+    " id="post-684159304">
+
+    <div data-role="post-content" class="post-content ">
+        <div class="indicator"></div>
+
+        
+            
+
+                
+                    <div class="avatar hovercard">
+                        <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="user" data-action="profile" data-user="233389">
+                            <img alt="Avatar" src="avatar92(2).jpg">
+                        </a>
+                    </div>
+                
+
+                <div class="post-body">
+                    <header>
+                        
+                            <span class="author publisher-anchor-color"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="profile" data-user="233389">nawroth</a></span>
+                            
+                                <span class="badge moderator">Mod</span>
+                            
+                        
+
+                        
+                            <span><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-679916862" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> Jo</a></span>
+                        
+
+                        <!-- Post Meta is displayed on mobile only -->
+                        <div class="post-meta">
+                            <span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+                            
+                                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-684159304" data-role="relative-time" class="time-ago" title="Tuesday, October 16 2012 2:49 PM">
+                                    10 months ago
+                                </a>
+                                <span class="bullet total-votes-bullet" aria-hidden="true">•</span>
+                                <span class="total-votes">
+                                    0 upvotes
+                                </span>
+                            
+                        </div>
+
+                        <ul class="post-menu">
+
+                            <li class="collapse"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Collapse">−</a></li>
+                            <li class="expand" style="display:none"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="collapse" title="Expand">+</a></li>
+
+                            <li class="dropdown" data-role="menu" role="menu">
+                                
+    
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://docs.neo4j.org/chunked/stable/security-server.html#"><b class="caret"></b></a>
+        <ul class="dropdown-menu invisible">
+            
+                
+                <li><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="flag">Flag as inappropriate</a></li>
+            
+        </ul>
+    
+
+                            </li>
+                        </ul>
+                    </header>
+
+                    <!-- Use message-container to manage visible height of the post message (including media) -->
+                    <div class="post-message-container" data-role="message-container">
+                        <!-- Use message-content to measure post content (including media) -->
+                        <div data-role="message-content">
+                            <div class="post-message publisher-anchor-color " data-role="message">
+                                
+                                    <p>Thanks for notifying us!</p>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="message-shadow hidden" data-role="message-shadow"></div>
+                    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="more-button hidden" title="see more" data-action="post-expand">see more</a>
+
+                    <footer>
+                        
+    
+        <menu>
+            <li class="realtime" data-role="realtime-notification:684159304">
+                <span style="display:none;" class="realtime-replies"></span>
+                <a style="display:none;" href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="btn small" data-action="load-queued-posts"></a>
+                 <!-- Realtime notification about new replies -->
+            </li>
+
+            <li class="voting" data-role="voting">
+                
+    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+        <span class="updatable count" data-role="likes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+    </a>
+    <a class="vote-down  count-0" title="Vote down">
+        <span class="updatable count" data-role="dislikes">0</span>
+        <span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+        <span class="tooltip">You must sign in to down-vote this post.</span>
+    </a>
+
+            </li>
+            <li class="bullet" aria-hidden="true">•</li>
+
+            
+                
+
+                
+                    <li class="reply"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="reply"><span class="icon icon-mobile icon-reply"></span><span class="text">Reply</span></a></li>
+                    <li class="bullet" aria-hidden="true">•</li>
+                
+            
+
+            <li class="share">
+                <a class="toggle"><span class="icon icon-mobile icon-share"></span><span class="text">Share ›</span></a>
+                <ul>
+                    <li class="twitter"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:twitter">Twitter</a></li>
+                    <li class="facebook"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="share:facebook">Facebook</a></li>
+                    <li class="link"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#comment-684159304">Link</a></li>
+                </ul>
+            </li>
+        </menu>
+    
+
+                    </footer>
+                </div>
+
+             
+         
+
+        <div data-role="blacklist-form"></div>
+    </div>
+
+    <!-- Child comments are appended here -->
+    <ul data-role="children" class="children"></ul>
+</li></ul>
+</li></ul>
+
+            <div class="load-more" data-role="more" style="display: none;">
+                <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="more-posts" class="btn">Load more comments</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="community" style="display:none" data-role="main" data-outbound-link="embed:community"><div>
+    <div class="primary">
+        <h3>Top Discussions on 
+    <strong>Neo4j Graph Database</strong>
+</h3>
+        <div data-role="top-threads"><ol id="top-threads" class="loading"></ol></div>
+    </div>
+
+    <div class="secondary">
+        <h3>Top Commenters</h3>
+
+        <div data-role="top-users"><ol id="top-users" class="loading"></ol></div>
+    </div>
+</div></section>
+
+    <section id="dashboard" style="display:none" data-role="main">
+        <!-- Dashboard goes here -->
+        <!-- Default message if there are no notifications or activity to show -->
+        <p style="line-height: 1.4">Nothing for you here ... yet. But as you comment with Disqus and follow
+        other Disqus users, you will start to receive notifications here, as well as a personalized
+        feed of activity by you and the people you follow. So get out there and participate in
+        some discussions!</p>
+    </section>
+
+    <section id="profile" style="display:none" data-role="main">
+    </section>
+
+    
+    <div id="discovery"></div>
+
+    <div id="footer">
+        <ul>
+            <li class="logo"><a href="http://disqus.com/" title="Powered by Disqus">Powered by Disqus</a></li>
+            <li class="rss"><a href="http://neo4j.disqus.com/securing_access_to_the_neo4j_server/latest.rss"><i aria-hidden="true" class="icon-feed" title="in reply to"></i><span class="clip">Comment feed</span></a></li>
+            <li id="thread-subscribe-button" class="email"> <!-- Three options: nothing, show-form, subscribed -->
+                <div class="default">
+                    <a href="http://docs.neo4j.org/chunked/stable/security-server.html#" data-action="subscribe"><i aria-hidden="true" class="icon-mail" title="Get email updates"></i><span class="clip">Subscribe via email</span> <i aria-hidden="true" class="icon-checkmark" title="Subscribe via email"></i></a>
+                </div>
+                <div class="form">
+                    <div class="input-wrapper"><input id="thread-subscribe-email" type="email" placeholder="yourname@email.com"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div></body></html>

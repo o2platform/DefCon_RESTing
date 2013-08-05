@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.4/xstream-1.4.4-sources.jar!/" />
+      <root url="file://C:/_Research/xstream-1.4.4/xstream/src/java" />
     </SOURCES>
   </library>
 </component>

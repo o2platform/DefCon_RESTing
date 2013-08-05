@@ -1,0 +1,151 @@
+/*-----------TAB WRAP------------------------------------------------------*/
+	#wrap_tabs {
+		width: 320px;
+		overflow: hidden;
+		padding: 0;
+		margin-top: 35px;
+	}
+	
+	#wrap_tabs-partners {
+		width: 600px;
+		/* overflow: hidden; */
+		padding: 0;
+		margin-top: 35px;
+	}
+	
+
+/*-----------TABS------------------------------------------------------*/
+
+	#tabs {
+		margin: 0;
+		margin-left: -35px;
+		padding: 0;
+	}
+	
+	.tab_names {
+		font-family: Arial,Helevetica;
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: uppercase;
+		list-style: none;
+		float: left;
+		display: inline;
+		margin: 0;
+		padding: 0;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	
+	
+	.tab_names a {
+		color: #464646; 
+		text-decoration: none; 	
+		padding: 10px 10px 12px 10px;
+		background-color: #ececec;
+		border: 1px solid #d4d4d4;
+	}
+	
+	.tab_names a:hover{
+		color: #B0362C;
+		background-color: #fff;
+		border-bottom: 1px solid #fff;
+	}
+	
+	
+	
+/*--------------TABBED CONTENT------------------------------------------*/
+		
+	.content {
+		margin: -20px 0px 0px 0px;
+		padding: 0;
+		padding-left: 0px;
+		padding-right: 15px;
+		background: #fff;
+		border: 1px solid #d4d4d4;
+		width: 275px;
+		clear: both;
+		display: none;
+	}
+	
+	.content ul li {
+		text-align: justify;
+		border-bottom: 1px solid #d4d4d4;
+		font-family: Arial,Helevetica;
+		font-size: 12px;
+		width: 260px;
+		padding-top: 5px;
+		margin-bottom: 15px;
+		color: #464646;
+		list-style: none;
+		margin-left: -20px;
+		text-align: left;
+	}
+	
+	.content li a {
+		text-decoration: none;
+		color: #000;
+		font-size: 12px;
+		font-weight: normal;
+	}
+	
+	.content li a:hover {
+		text-decoration: underline;
+		font-size: 12px;
+		font-weight: normal;
+	}
+
+	.content-partners {
+		margin: 10px 0px 0px 0px;
+		padding: 0;
+		padding-left: 10px;
+		padding-right: 15px;
+		background: #fff;
+		border: 1px solid #d4d4d4;
+		width: 600px;
+		clear: both;
+		display: none;
+	}
+
+	.content-partners ul li {
+		text-align: justify;
+		border-bottom: 1px solid #d4d4d4;
+		font-family: Arial,Helevetica;
+		font-size: 12px;
+		width: 200px;
+		padding-top: 5px;		
+		color: #464646;
+		list-style: none;
+		margin-left: -20px;
+		text-align: left;
+	}
+	
+	.content-partners li a {
+		text-decoration: none;
+		color: #000;
+		font-size: 12px;
+		font-weight: normal;
+	}
+	
+	.content-partners li a:hover {
+		text-decoration: underline;
+		font-size: 12px;
+		font-weight: normal;
+	}
+
+	.content-techpartners {
+		margin: 10px 0px 0px 0px;
+		padding: 0;
+		background: #fff;
+		width: 600px;
+		clear: both;
+		display: none;
+	}
+               
+	.partners-post {
+	padding: 20px 0 5px 0;
+	border-bottom: 1px dotted #dfdfdf;
+  	}
+
+	#tab1 li:hover{
+	font-weight: bold;
+	}

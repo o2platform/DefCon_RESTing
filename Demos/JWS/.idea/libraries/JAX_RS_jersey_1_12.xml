@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="JAX-RS-jersey-1.12" type="JAX-RS">
+    <properties version="jersey-1.12" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-3.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/comresrcgen-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/FastInfoset-1.2.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grizzly-servlet-webserver-1.9.45.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-asl-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-jaxrs-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-xc-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-mapper-asl-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-api-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-impl-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-xjc-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jdom-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-bundle-1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-client-1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-core-1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-grizzly-1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jersey-multipart-1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jettison-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/localizer-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mail-1.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mimepull-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/persistence-api-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rome-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/stax-api-1.0-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/wadl-cmdline-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/wadl-core-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

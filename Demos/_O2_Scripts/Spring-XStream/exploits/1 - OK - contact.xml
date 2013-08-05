@@ -1,0 +1,7 @@
+<contact>
+    <id>1</id>
+    <firstName>alvaro</firstName>
+    <lastName>test</lastName>
+    <email>c1@springserver.com</email>
+</contact>
+<!-- curl --header "content-type: application/xml" --data @contact.xml "http://localhost:8080/contacts" -->

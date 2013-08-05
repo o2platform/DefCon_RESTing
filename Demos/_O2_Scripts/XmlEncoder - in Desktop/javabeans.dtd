@@ -1,0 +1,109 @@
+<!ELEMENT java (
+    object   | 
+    void     | 
+    string   |  
+    class    | 
+    null     | 
+    array    | 
+    boolean  | 
+    byte     | 
+    char     | 
+    short    | 
+    int      | 
+    long     | 
+    float    |  
+    double
+)*>
+<!ATTLIST java 
+    version  CDATA  #IMPLIED
+    class    CDATA  #IMPLIED
+>
+
+<!ELEMENT boolean (#PCDATA)>
+<!ELEMENT byte    (#PCDATA)>
+<!ELEMENT char    (#PCDATA)>
+<!ELEMENT short   (#PCDATA)>
+<!ELEMENT int     (#PCDATA)>
+<!ELEMENT long    (#PCDATA)>
+<!ELEMENT float   (#PCDATA)>
+<!ELEMENT double  (#PCDATA)>
+
+<!ELEMENT string  (#PCDATA)>
+<!ELEMENT class   (#PCDATA)>
+<!ELEMENT null    (#PCDATA)>
+
+<!ELEMENT object (
+    object   | 
+    void     | 
+    string   |  
+    class    | 
+    null     | 
+    array    | 
+    boolean  | 
+    byte     | 
+    char     | 
+    short    | 
+    int      | 
+    long     | 
+    float    |  
+    double
+)*>
+<!ATTLIST object 
+    id       ID     #IMPLIED
+    idref    IDREF  #IMPLIED
+    class    CDATA  #IMPLIED
+    field    CDATA  #IMPLIED
+    method   CDATA  #IMPLIED
+    property CDATA  #IMPLIED
+    index    CDATA  #IMPLIED
+>
+
+<!ELEMENT array (
+    object   | 
+    void     | 
+    string   |  
+    class    | 
+    null     | 
+    array    | 
+    boolean  | 
+    byte     | 
+    char     | 
+    short    | 
+    int      | 
+    long     | 
+    float    |  
+    double
+)*>
+<!ATTLIST array 
+    id       ID     #IMPLIED
+    class    CDATA  #IMPLIED
+    length   CDATA  #IMPLIED
+>
+
+<!ELEMENT void (
+    object   | 
+    void     | 
+    string   |  
+    class    | 
+    null     | 
+    array    | 
+    boolean  | 
+    byte     | 
+    char     | 
+    short    | 
+    int      | 
+    long     | 
+    float    |  
+    double
+)*>
+<!ATTLIST void 
+    id       ID     #IMPLIED
+    class    CDATA  #IMPLIED
+    method   CDATA  #IMPLIED
+    property CDATA  #IMPLIED
+    index    CDATA  #IMPLIED
+>
+
+
+
+

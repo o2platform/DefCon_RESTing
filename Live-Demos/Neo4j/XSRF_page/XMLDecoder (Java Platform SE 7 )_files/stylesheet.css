@@ -1,0 +1,594 @@
+body {
+	margin: 0px; color: rgb(53, 56, 51); font-family: Arial, Helvetica, sans-serif; font-size: 76%; background-color: rgb(255, 255, 255);
+}
+a:link {
+	color: rgb(76, 107, 135); text-decoration: none;
+}
+a:visited {
+	color: rgb(76, 107, 135); text-decoration: none;
+}
+a:hover {
+	color: rgb(187, 122, 42); text-decoration: none;
+}
+a:focus {
+	color: rgb(187, 122, 42); text-decoration: none;
+}
+a:active {
+	color: rgb(76, 107, 135); text-decoration: none;
+}
+a[name] {
+	color: rgb(53, 56, 51);
+}
+a[name]:hover {
+	color: rgb(53, 56, 51); text-decoration: none;
+}
+pre {
+	font-size: 1.3em;
+}
+h1 {
+	font-size: 1.8em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.4em;
+}
+h4 {
+	font-size: 1.3em;
+}
+h5 {
+	font-size: 1.2em;
+}
+h6 {
+	font-size: 1.1em;
+}
+ul {
+	list-style-type: disc;
+}
+code {
+	font-size: 1.2em;
+}
+tt {
+	font-size: 1.2em;
+}
+dt code {
+	font-size: 1.2em;
+}
+table tr td dt code {
+	font-size: 1.2em; vertical-align: top;
+}
+sup {
+	font-size: 0.6em;
+}
+.clear {
+	height: 0px; overflow: hidden; clear: both;
+}
+.aboutLanguage {
+	padding: 0px 21px; font-size: 0.8em; margin-top: -7px; float: right; z-index: 200;
+}
+.legalCopy {
+	margin-left: 0.5em;
+}
+.bar a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.bar a:link {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.bar a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.bar a:active {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.bar a:hover {
+	color: rgb(187, 122, 42);
+}
+.bar a:focus {
+	color: rgb(187, 122, 42);
+}
+.tab {
+	padding: 8px; width: 5em; color: rgb(255, 255, 255); font-weight: bold; background-image: url("resources/titlebar.gif"); background-repeat: no-repeat; background-color: rgb(0, 102, 255);
+}
+.bar {
+	margin: 0px; padding: 0.8em 0.5em 0.4em 0.8em; height: auto; color: rgb(255, 255, 255); font-size: 1em; background-image: url("resources/background.gif"); background-repeat: repeat-x;
+}
+.topNav {
+	padding: 10px 0px 0px; width: 100%; height: 2.8em; color: rgb(255, 255, 255); overflow: hidden; clear: right; float: left; background-image: url("resources/background.gif"); background-repeat: repeat-x;
+}
+.bottomNav {
+	padding: 10px 0px 0px; width: 100%; height: 2.8em; color: rgb(255, 255, 255); overflow: hidden; clear: right; margin-top: 10px; float: left; background-image: url("resources/background.gif"); background-repeat: repeat-x;
+}
+.subNav {
+	width: 100%; overflow: hidden; border-bottom-color: rgb(158, 173, 192); border-bottom-width: 1px; border-bottom-style: solid; float: left; background-color: rgb(222, 227, 233);
+}
+.subNav div {
+	padding: 0px 0px 5px 6px; clear: left; float: left;
+}
+ul.navList {
+	margin: 0px 25px 0px 0px; padding: 0px; float: left;
+}
+ul.subNavList {
+	margin: 0px 25px 0px 0px; padding: 0px; float: left;
+}
+ul.navList li {
+	list-style: none; padding: 3px 6px; float: left;
+}
+ul.subNavList li {
+	list-style: none; font-size: 90%; float: left;
+}
+.topNav a:link {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.topNav a:active {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.topNav a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.bottomNav a:link {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.bottomNav a:active {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.bottomNav a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.topNav a:hover {
+	color: rgb(187, 122, 42); text-decoration: none;
+}
+.bottomNav a:hover {
+	color: rgb(187, 122, 42); text-decoration: none;
+}
+.navBarCell1Rev {
+	margin: auto 5px; border: 1px solid rgb(201, 170, 68); color: rgb(255, 255, 255); background-image: url("resources/tab.gif"); background-color: rgb(168, 136, 52);
+}
+.header {
+	margin: 0px 20px; padding: 5px 0px 0px; clear: both;
+}
+.footer {
+	margin: 0px 20px; padding: 5px 0px 0px; clear: both;
+}
+.indexHeader {
+	margin: 10px; position: relative;
+}
+.indexHeader h1 {
+	font-size: 1.3em;
+}
+.title {
+	margin: 10px 0px; color: rgb(44, 69, 87);
+}
+.subTitle {
+	margin: 5px 0px 0px;
+}
+.header ul {
+	margin: 0px 0px 25px; padding: 0px;
+}
+.footer ul {
+	margin: 20px 0px 5px;
+}
+.header ul li {
+	list-style: none; font-size: 1.2em;
+}
+.footer ul li {
+	list-style: none; font-size: 1.2em;
+}
+div.details ul.blockList ul.blockList ul.blockList li.blockList h4 {
+	margin: 0px 0px 6px -8px; padding: 2px 5px; border-top-color: rgb(158, 173, 192); border-bottom-color: rgb(158, 173, 192); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(222, 227, 233);
+}
+div.details ul.blockList ul.blockList ul.blockListLast li.blockList h4 {
+	margin: 0px 0px 6px -8px; padding: 2px 5px; border-top-color: rgb(158, 173, 192); border-bottom-color: rgb(158, 173, 192); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(222, 227, 233);
+}
+ul.blockList ul.blockList ul.blockList li.blockList h3 {
+	margin: 0px 0px 6px -8px; padding: 2px 5px; border-top-color: rgb(158, 173, 192); border-bottom-color: rgb(158, 173, 192); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(222, 227, 233);
+}
+ul.blockList ul.blockList li.blockList h3 {
+	margin: 15px 0px; padding: 0px;
+}
+ul.blockList li.blockList h2 {
+	padding: 0px 0px 20px;
+}
+.contentContainer {
+	padding: 10px 20px; clear: both; position: relative;
+}
+.sourceContainer {
+	padding: 10px 20px; clear: both; position: relative;
+}
+.classUseContainer {
+	padding: 10px 20px; clear: both; position: relative;
+}
+.serializedFormContainer {
+	padding: 10px 20px; clear: both; position: relative;
+}
+.constantValuesContainer {
+	padding: 10px 20px; clear: both; position: relative;
+}
+.indexContainer {
+	margin: 10px; font-size: 1em; position: relative;
+}
+.indexContainer h2 {
+	padding: 0px 0px 3px; font-size: 1.1em;
+}
+.indexContainer ul {
+	margin: 0px; padding: 0px;
+}
+.indexContainer ul li {
+	list-style: none;
+}
+.contentContainer .description dl dt {
+	margin: 10px 0px 0px; color: rgb(78, 78, 78); font-size: 1.1em; font-weight: bold;
+}
+.contentContainer .details dl dt {
+	margin: 10px 0px 0px; color: rgb(78, 78, 78); font-size: 1.1em; font-weight: bold;
+}
+.serializedFormContainer dl dt {
+	margin: 10px 0px 0px; color: rgb(78, 78, 78); font-size: 1.1em; font-weight: bold;
+}
+.contentContainer .description dl dd {
+	margin: 10px 0px 10px 20px;
+}
+.contentContainer .details dl dd {
+	margin: 10px 0px 10px 20px;
+}
+.serializedFormContainer dl dd {
+	margin: 10px 0px 10px 20px;
+}
+.serializedFormContainer dl.nameValue dt {
+	font-size: 1.1em; font-weight: bold; margin-left: 1px; display: inline;
+}
+.serializedFormContainer dl.nameValue dd {
+	margin: 0px 0px 0px 1px; font-size: 1.1em; display: inline;
+}
+ul.horizontal li {
+	font-size: 0.9em; display: inline;
+}
+ul.inheritance {
+	margin: 0px; padding: 0px;
+}
+ul.inheritance li {
+	list-style: none; display: inline;
+}
+ul.inheritance li ul.inheritance {
+	padding-top: 1px; padding-left: 15px; margin-left: 15px;
+}
+ul.blockList {
+	margin: 10px 0px; padding: 0px;
+}
+ul.blockListLast {
+	margin: 10px 0px; padding: 0px;
+}
+ul.blockList li.blockList {
+	list-style: none; margin-bottom: 25px;
+}
+ul.blockListLast li.blockList {
+	list-style: none; margin-bottom: 25px;
+}
+ul.blockList ul.blockList li.blockList {
+	padding: 0px 20px 5px 10px; border: 1px solid rgb(158, 173, 192); background-color: rgb(249, 249, 249);
+}
+ul.blockList ul.blockListLast li.blockList {
+	padding: 0px 20px 5px 10px; border: 1px solid rgb(158, 173, 192); background-color: rgb(249, 249, 249);
+}
+ul.blockList ul.blockList ul.blockList li.blockList {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(158, 173, 192) rgb(158, 173, 192); padding: 0px 0px 5px 8px; background-color: rgb(255, 255, 255);
+}
+ul.blockList ul.blockList ul.blockListLast li.blockList {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(158, 173, 192) rgb(158, 173, 192); padding: 0px 0px 5px 8px; background-color: rgb(255, 255, 255);
+}
+ul.blockList ul.blockList ul.blockList ul.blockList li.blockList {
+	border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(158, 173, 192); padding-bottom: 15px; padding-left: 0px; margin-left: 0px;
+}
+ul.blockList ul.blockList ul.blockList ul.blockList li.blockListLast {
+	list-style: none; padding-bottom: 0px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+table tr td dl {
+	margin-top: 0px; margin-bottom: 1px;
+}
+table tr td dl dt {
+	margin-top: 0px; margin-bottom: 1px;
+}
+table tr td dl dd {
+	margin-top: 0px; margin-bottom: 1px;
+}
+.contentContainer table {
+	width: 100%; border-bottom-color: rgb(158, 173, 192); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.classUseContainer table {
+	width: 100%; border-bottom-color: rgb(158, 173, 192); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.constantValuesContainer table {
+	width: 100%; border-bottom-color: rgb(158, 173, 192); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.contentContainer ul li table {
+	width: 100%;
+}
+.classUseContainer ul li table {
+	width: 100%;
+}
+.constantValuesContainer ul li table {
+	width: 100%;
+}
+.contentContainer .description table {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.contentContainer .details table {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.contentContainer ul li table th.colOne {
+	padding-right: 20px; vertical-align: top;
+}
+.contentContainer ul li table th.colFirst {
+	padding-right: 20px; vertical-align: top;
+}
+.contentContainer ul li table th.colLast {
+	padding-right: 20px; vertical-align: top;
+}
+.classUseContainer ul li table th {
+	padding-right: 20px; vertical-align: top;
+}
+.constantValuesContainer ul li table th {
+	padding-right: 20px; vertical-align: top;
+}
+.contentContainer ul li table td.colOne {
+	padding-right: 20px; vertical-align: top;
+}
+.contentContainer ul li table td.colFirst {
+	padding-right: 20px; vertical-align: top;
+}
+.contentContainer ul li table td.colLast {
+	padding-right: 20px; vertical-align: top;
+}
+.classUseContainer ul li table td {
+	padding-right: 20px; vertical-align: top;
+}
+.constantValuesContainer ul li table td {
+	padding-right: 20px; vertical-align: top;
+}
+.contentContainer ul li table th.colLast {
+	padding-right: 3px;
+}
+.classUseContainer ul li table th.colLast {
+	padding-right: 3px;
+}
+.constantValuesContainer ul li table th.colLast {
+	padding-right: 3px;
+}
+.contentContainer ul li table td.colLast {
+	padding-right: 3px;
+}
+.classUseContainer ul li table td.colLast {
+	padding-right: 3px;
+}
+.constantValuesContainer ul li table td.colLast {
+	padding-right: 3px;
+}
+.contentContainer ul li table th.colOne {
+	padding-right: 3px;
+}
+.classUseContainer ul li table th.colOne {
+	padding-right: 3px;
+}
+.contentContainer ul li table td.colOne {
+	padding-right: 3px;
+}
+.classUseContainer ul li table td.colOne {
+	padding-right: 3px;
+}
+.overviewSummary caption {
+	margin: 0px; padding: 0px; text-align: left; color: rgb(255, 255, 255); overflow: hidden; clear: none; font-weight: bold; position: relative; background-repeat: no-repeat;
+}
+.packageSummary caption {
+	margin: 0px; padding: 0px; text-align: left; color: rgb(255, 255, 255); overflow: hidden; clear: none; font-weight: bold; position: relative; background-repeat: no-repeat;
+}
+.contentContainer ul.blockList li.blockList caption {
+	margin: 0px; padding: 0px; text-align: left; color: rgb(255, 255, 255); overflow: hidden; clear: none; font-weight: bold; position: relative; background-repeat: no-repeat;
+}
+.summary caption {
+	margin: 0px; padding: 0px; text-align: left; color: rgb(255, 255, 255); overflow: hidden; clear: none; font-weight: bold; position: relative; background-repeat: no-repeat;
+}
+.classUseContainer caption {
+	margin: 0px; padding: 0px; text-align: left; color: rgb(255, 255, 255); overflow: hidden; clear: none; font-weight: bold; position: relative; background-repeat: no-repeat;
+}
+.constantValuesContainer caption {
+	margin: 0px; padding: 0px; text-align: left; color: rgb(255, 255, 255); overflow: hidden; clear: none; font-weight: bold; position: relative; background-repeat: no-repeat;
+}
+caption a:link {
+	color: rgb(255, 255, 255);
+}
+caption a:hover {
+	color: rgb(255, 255, 255);
+}
+caption a:active {
+	color: rgb(255, 255, 255);
+}
+caption a:visited {
+	color: rgb(255, 255, 255);
+}
+.overviewSummary caption span {
+	height: 18px; padding-top: 8px; padding-left: 8px; float: left; display: block; white-space: nowrap; background-image: url("resources/titlebar.gif");
+}
+.packageSummary caption span {
+	height: 18px; padding-top: 8px; padding-left: 8px; float: left; display: block; white-space: nowrap; background-image: url("resources/titlebar.gif");
+}
+.contentContainer ul.blockList li.blockList caption span {
+	height: 18px; padding-top: 8px; padding-left: 8px; float: left; display: block; white-space: nowrap; background-image: url("resources/titlebar.gif");
+}
+.summary caption span {
+	height: 18px; padding-top: 8px; padding-left: 8px; float: left; display: block; white-space: nowrap; background-image: url("resources/titlebar.gif");
+}
+.classUseContainer caption span {
+	height: 18px; padding-top: 8px; padding-left: 8px; float: left; display: block; white-space: nowrap; background-image: url("resources/titlebar.gif");
+}
+.constantValuesContainer caption span {
+	height: 18px; padding-top: 8px; padding-left: 8px; float: left; display: block; white-space: nowrap; background-image: url("resources/titlebar.gif");
+}
+.overviewSummary .tabEnd {
+	background-position: right top; width: 10px; float: left; position: relative; background-image: url("resources/titlebar_end.gif"); background-repeat: no-repeat;
+}
+.packageSummary .tabEnd {
+	background-position: right top; width: 10px; float: left; position: relative; background-image: url("resources/titlebar_end.gif"); background-repeat: no-repeat;
+}
+.contentContainer ul.blockList li.blockList .tabEnd {
+	background-position: right top; width: 10px; float: left; position: relative; background-image: url("resources/titlebar_end.gif"); background-repeat: no-repeat;
+}
+.summary .tabEnd {
+	background-position: right top; width: 10px; float: left; position: relative; background-image: url("resources/titlebar_end.gif"); background-repeat: no-repeat;
+}
+.classUseContainer .tabEnd {
+	background-position: right top; width: 10px; float: left; position: relative; background-image: url("resources/titlebar_end.gif"); background-repeat: no-repeat;
+}
+.constantValuesContainer .tabEnd {
+	background-position: right top; width: 10px; float: left; position: relative; background-image: url("resources/titlebar_end.gif"); background-repeat: no-repeat;
+}
+ul.blockList ul.blockList li.blockList table {
+	margin: 0px 0px 12px; width: 100%;
+}
+.tableSubHeadingColor {
+	background-color: rgb(238, 238, 255);
+}
+.altColor {
+	background-color: rgb(238, 238, 239);
+}
+.rowColor {
+	background-color: rgb(255, 255, 255);
+}
+.overviewSummary td {
+	padding: 3px 3px 3px 7px; text-align: left;
+}
+.packageSummary td {
+	padding: 3px 3px 3px 7px; text-align: left;
+}
+.contentContainer ul.blockList li.blockList td {
+	padding: 3px 3px 3px 7px; text-align: left;
+}
+.summary td {
+	padding: 3px 3px 3px 7px; text-align: left;
+}
+.classUseContainer td {
+	padding: 3px 3px 3px 7px; text-align: left;
+}
+.constantValuesContainer td {
+	padding: 3px 3px 3px 7px; text-align: left;
+}
+th.colFirst {
+	background: rgb(222, 227, 233); padding: 3px 3px 3px 7px; text-align: left; border-top-color: rgb(158, 173, 192); border-bottom-color: rgb(158, 173, 192); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+th.colLast {
+	background: rgb(222, 227, 233); padding: 3px 3px 3px 7px; text-align: left; border-top-color: rgb(158, 173, 192); border-bottom-color: rgb(158, 173, 192); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+th.colOne {
+	background: rgb(222, 227, 233); padding: 3px 3px 3px 7px; text-align: left; border-top-color: rgb(158, 173, 192); border-bottom-color: rgb(158, 173, 192); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.constantValuesContainer th {
+	background: rgb(222, 227, 233); padding: 3px 3px 3px 7px; text-align: left; border-top-color: rgb(158, 173, 192); border-bottom-color: rgb(158, 173, 192); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+td.colOne a:link {
+	font-weight: bold;
+}
+td.colOne a:active {
+	font-weight: bold;
+}
+td.colOne a:visited {
+	font-weight: bold;
+}
+td.colOne a:hover {
+	font-weight: bold;
+}
+td.colFirst a:link {
+	font-weight: bold;
+}
+td.colFirst a:active {
+	font-weight: bold;
+}
+td.colFirst a:visited {
+	font-weight: bold;
+}
+td.colFirst a:hover {
+	font-weight: bold;
+}
+td.colLast a:link {
+	font-weight: bold;
+}
+td.colLast a:active {
+	font-weight: bold;
+}
+td.colLast a:visited {
+	font-weight: bold;
+}
+td.colLast a:hover {
+	font-weight: bold;
+}
+.constantValuesContainer td a:link {
+	font-weight: bold;
+}
+.constantValuesContainer td a:active {
+	font-weight: bold;
+}
+.constantValuesContainer td a:visited {
+	font-weight: bold;
+}
+.constantValuesContainer td a:hover {
+	font-weight: bold;
+}
+td.colFirst {
+	border-left-color: rgb(158, 173, 192); border-left-width: 1px; border-left-style: solid; white-space: nowrap;
+}
+th.colFirst {
+	border-left-color: rgb(158, 173, 192); border-left-width: 1px; border-left-style: solid; white-space: nowrap;
+}
+td.colLast {
+	border-right-color: rgb(158, 173, 192); border-right-width: 1px; border-right-style: solid;
+}
+th.colLast {
+	border-right-color: rgb(158, 173, 192); border-right-width: 1px; border-right-style: solid;
+}
+td.colOne {
+	border-right-color: rgb(158, 173, 192); border-left-color: rgb(158, 173, 192); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+th.colOne {
+	border-right-color: rgb(158, 173, 192); border-left-color: rgb(158, 173, 192); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+table.overviewSummary {
+	padding: 0px; margin-left: 0px;
+}
+table.overviewSummary td.colFirst {
+	width: 25%; vertical-align: middle;
+}
+table.overviewSummary th.colFirst {
+	width: 25%; vertical-align: middle;
+}
+table.overviewSummary td.colOne {
+	width: 25%; vertical-align: middle;
+}
+table.overviewSummary th.colOne {
+	width: 25%; vertical-align: middle;
+}
+table.packageSummary td.colFirst {
+	width: 25%; vertical-align: middle;
+}
+table.overviewSummary th.colFirst {
+	width: 25%; vertical-align: middle;
+}
+.description pre {
+	margin-top: 0px;
+}
+.deprecatedContent {
+	margin: 0px; padding: 10px 0px;
+}
+.docSummary {
+	padding: 0px;
+}
+.sourceLineNo {
+	padding: 0px 30px 0px 0px; color: green;
+}
+h1.hidden {
+	overflow: hidden; font-size: 0.9em; visibility: hidden;
+}
+.block {
+	margin: 3px 0px 0px; display: block;
+}
+.strong {
+	font-weight: bold;
+}

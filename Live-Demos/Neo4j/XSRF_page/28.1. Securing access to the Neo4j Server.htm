@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0057)http://docs.neo4j.org/chunked/stable/security-server.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>28.1.&nbsp;Securing access to the Neo4j Server</title><link rel="stylesheet" type="text/css" href="./28.1. Securing access to the Neo4j Server_files/docbook-xsl.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="http://docs.neo4j.org/chunked/stable/index.html" title="The Neo4j Manual v1.9.2"><link rel="up" href="http://docs.neo4j.org/chunked/stable/operations-security.html" title="Chapter 28. Security"><link rel="prev" href="http://docs.neo4j.org/chunked/stable/operations-security.html" title="Chapter 28. Security"><link rel="next" href="http://docs.neo4j.org/chunked/stable/operations-monitoring.html" title="Chapter 29. Monitoring"><link rel="preface" href="http://docs.neo4j.org/chunked/stable/preface.html" title="Preface"><link rel="part" href="http://docs.neo4j.org/chunked/stable/introduction.html" title="Part I. Introduction"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/introduction-highlights.html" title="Chapter 1. Neo4j Highlights"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/graphdb-concepts.html" title="Chapter 2. Graph Database Concepts"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/graphdb-neo4j.html" title="Chapter 3. The Neo4j Graph Database"><link rel="part" href="http://docs.neo4j.org/chunked/stable/tutorials.html" title="Part II. Tutorials"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/tutorials-java-embedded.html" title="Chapter 4. Using Neo4j embedded in Java applications"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/tutorials-rest.html" title="Chapter 5. Neo4j Remote Client Libraries"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/tutorial-traversal.html" title="Chapter 6. The Traversal Framework"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/data-modeling-examples.html" title="Chapter 7. Data Modeling Examples"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/languages.html" title="Chapter 8. Languages"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/server-extending.html" title="Chapter 9. Extending the Neo4j Server"><link rel="part" href="http://docs.neo4j.org/chunked/stable/cypher-query-lang.html" title="Part III. Cypher Query Language"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/cypher-intro.html" title="Chapter 10. Introduction"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/query-syntax.html" title="Chapter 11. Syntax"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/query-read.html" title="Chapter 12. Reading Clauses"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/query-write.html" title="Chapter 13. Writing Clauses"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/query-function.html" title="Chapter 14. Functions"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/examples-from-sql-to-cypher.html" title="Chapter 15. From SQL to Cypher"><link rel="part" href="http://docs.neo4j.org/chunked/stable/reference-documentation.html" title="Part IV. Reference"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/capabilities.html" title="Chapter 16. Capabilities"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/transactions.html" title="Chapter 17. Transaction Management"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/import.html" title="Chapter 18. Data Import"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/indexing.html" title="Chapter 19. Indexing"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/graph-algo.html" title="Chapter 20. Graph Algorithms"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/server.html" title="Chapter 21. Neo4j Server"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/rest-api.html" title="Chapter 22. REST API"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/deprecations.html" title="Chapter 23. Deprecations"><link rel="part" href="http://docs.neo4j.org/chunked/stable/operations.html" title="Part V. Operations"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/deployment.html" title="Chapter 24. Installation &amp; Deployment"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/embedded-configuration.html" title="Chapter 25. Configuration &amp; Performance"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/ha.html" title="Chapter 26. High Availability"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/operations-backup.html" title="Chapter 27. Backup"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/operations-security.html" title="Chapter 28. Security"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/operations-monitoring.html" title="Chapter 29. Monitoring"><link rel="part" href="http://docs.neo4j.org/chunked/stable/tools.html" title="Part VI. Tools"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/tools-webadmin.html" title="Chapter 30. Web Administration"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/shell.html" title="Chapter 31. Neo4j Shell"><link rel="part" href="http://docs.neo4j.org/chunked/stable/community.html" title="Part VII. Community"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/community-support.html" title="Chapter 32. Community Support"><link rel="chapter" href="http://docs.neo4j.org/chunked/stable/community-contributing.html" title="Chapter 33. Contributing to Neo4j"><link rel="appendix" href="http://docs.neo4j.org/chunked/stable/manpages.html" title="Appendix A. Manpages"><link rel="refentry" href="http://docs.neo4j.org/chunked/stable/re01.html" title="neo4j"><link rel="refentry" href="http://docs.neo4j.org/chunked/stable/re02.html" title="neo4j-shell"><link rel="refentry" href="http://docs.neo4j.org/chunked/stable/re03.html" title="neo4j-backup"><link rel="refentry" href="http://docs.neo4j.org/chunked/stable/re04.html" title="neo4j-arbiter"><link rel="subsection" href="http://docs.neo4j.org/chunked/stable/security-server.html#_secure_the_port_and_remote_client_connection_accepts" title="28.1.1. Secure the port and remote client connection accepts"><link rel="subsection" href="http://docs.neo4j.org/chunked/stable/security-server.html#_arbitrary_code_execution" title="28.1.2. Arbitrary code execution"><link rel="subsection" href="http://docs.neo4j.org/chunked/stable/security-server.html#_https_support" title="28.1.3. HTTPS support"><link rel="subsection" href="http://docs.neo4j.org/chunked/stable/security-server.html#_server_authorization_rules" title="28.1.4. Server Authorization Rules"><link rel="subsection" href="http://docs.neo4j.org/chunked/stable/security-server.html#_hosted_scripting" title="28.1.5. Hosted Scripting"><link rel="subsection" href="http://docs.neo4j.org/chunked/stable/security-server.html#_security_in_depth" title="28.1.6. Security in Depth"><link rel="copyright" href="http://docs.neo4j.org/chunked/stable/ln-idp4438736.html" title="License: Creative Commons 3.0">
+
+
+<!-- favicon -->
+
+<link rel="shortcut icon" href="http://neo4j.org/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="http://neo4j.org/favicon.ico" type="image/x-icon">
+
+<!-- style -->
+
+<link href="./28.1. Securing access to the Neo4j Server_files/shCore.css" rel="stylesheet" type="text/css">
+<link href="./28.1. Securing access to the Neo4j Server_files/shCoreEclipse.css" rel="stylesheet" type="text/css">
+<link href="./28.1. Securing access to the Neo4j Server_files/shThemeEclipse.css" rel="stylesheet" type="text/css">
+<link href="./28.1. Securing access to the Neo4j Server_files/neo.css" rel="stylesheet" type="text/css">
+
+<!-- Syntax Highlighter -->
+
+<script type="text/javascript" async="" src="./28.1. Securing access to the Neo4j Server_files/ga.js"></script><script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shCore.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushJava.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushJScript.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushBash.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushPlain.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushXml.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushGroovy.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushCypher.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushScala.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushSql.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushPython.js"></script>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/shBrushProperties.js"></script>
+
+<!-- activate when needed
+<script type="text/javascript" src="js/shBrushRuby.js"></script>
+<script type="text/javascript" src="js/shBrushCSharp.js"></script>
+-->
+ 
+<script type="text/javascript">
+  SyntaxHighlighter.defaults['tab-size'] = 4;
+  SyntaxHighlighter.defaults['gutter'] = false;
+  SyntaxHighlighter.defaults['toolbar'] = false;
+  SyntaxHighlighter.all()
+</script>
+
+<!-- JQuery -->
+
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/jquery-1.6.4.min.js"></script>
+
+<!-- Replace SVG for browsers that lack support. -->
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/svgreplacer.js"></script>
+
+<!-- Image Scaler -->
+
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/imagescaler.js"></script>
+
+<!-- Table Styler -->
+
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/tablestyler.js"></script>
+
+<!-- Version -->
+
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/version.js"></script>
+
+<!-- Version Switcher -->
+
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/versionswitcher.js"></script>
+
+<!-- Cypher Console -->
+
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/cypherconsole.js"></script>
+
+<!-- Online Sidebar -->
+
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/sidebar.js"></script>
+
+
+  <script type="text/javascript" async="" src="./28.1. Securing access to the Neo4j Server_files/embed.js"></script><script src="./28.1. Securing access to the Neo4j Server_files/alfie.js" async="" charset="UTF-8"></script></head><body><div xmlns="" class="breadcrumbs"><span class="breadcrumb-link"><a href="http://docs.neo4j.org/chunked/stable/index.html">The Neo4j Manual</a></span> &gt; <span class="breadcrumb-link"><a href="http://docs.neo4j.org/chunked/stable/operations.html">Operations</a></span> &gt; <span class="breadcrumb-link"><a href="http://docs.neo4j.org/chunked/stable/operations-security.html">Security</a></span> &gt; <span class="breadcrumb-node">Securing access to the Neo4j Server</span></div><div class="navheader"><table width="100%" summary="Navigation header"><tbody><tr><td width="20%" align="left"><a accesskey="p" href="http://docs.neo4j.org/chunked/stable/operations-security.html">Prev</a>&nbsp;</td><th width="60%" align="center">&nbsp;</th><td width="20%" align="right">&nbsp;<a accesskey="n" href="http://docs.neo4j.org/chunked/stable/operations-monitoring.html">Next</a></td></tr></tbody></table><hr></div><div class="section" style="margin-right: 295px;"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="security-server"></a>28.1.&nbsp;Securing access to the Neo4j Server</h2></div></div></div><div class="toc"><dl><dt><span class="section"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#_secure_the_port_and_remote_client_connection_accepts">28.1.1. Secure the port and remote client connection accepts</a></span></dt><dt><span class="section"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#_arbitrary_code_execution">28.1.2. Arbitrary code execution</a></span></dt><dt><span class="section"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#_https_support">28.1.3. HTTPS support</a></span></dt><dt><span class="section"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#_server_authorization_rules">28.1.4. Server Authorization Rules</a></span></dt><dt><span class="section"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#_hosted_scripting">28.1.5. Hosted Scripting</a></span></dt><dt><span class="section"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#_security_in_depth">28.1.6. Security in Depth</a></span></dt></dl></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_secure_the_port_and_remote_client_connection_accepts"></a>28.1.1.&nbsp;Secure the port and remote client connection accepts</h3></div></div></div><p>By default, the Neo4j Server is bundled with a Web server that binds to host <code class="literal">localhost</code> on port <code class="literal">7474</code>, answering only requests from the local machine.</p><p>This is configured in the <span class="emphasis"><em>conf/neo4j-server.properties</em></span> file:</p><pre class="programlisting brush: plain"># http port (for all data, administrative, and UI access)
+org.neo4j.server.webserver.port=7474
+
+#let the webserver only listen on the specified IP. Default
+#is localhost (only accept local connections). Uncomment to allow
+#any connection.
+#org.neo4j.server.webserver.address=0.0.0.0</pre><p>If you need to enable access from external hosts, configure the Web server in the <span class="emphasis"><em>conf/neo4j-server.properties</em></span> by setting the property <code class="literal">org.neo4j.server.webserver.address=0.0.0.0</code> to enable access from any host.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_arbitrary_code_execution"></a>28.1.2.&nbsp;Arbitrary code execution</h3></div></div></div><p>By default, the Neo4j Server comes with some places where arbitrary code code execution can happen. These are the <a class="xref" href="http://docs.neo4j.org/chunked/stable/rest-api-traverse.html" title="22.14. Traversals">Section&nbsp;22.14, “Traversals”</a> REST endpoints.
+To secure these, either disable them completely by removing offending plugins from the server classpath, or secure access to these URLs through proxies or Authorization Rules.
+Also, the <a class="ulink" href="http://docs.oracle.com/javase/1.4.2/docs/api/java/lang/SecurityManager.html" target="_top">Java Security Manager</a> can be used to secure parts of the codebase.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_https_support"></a>28.1.3.&nbsp;HTTPS support</h3></div></div></div><p>The Neo4j server includes built in support for SSL encrypted communication over HTTPS.
+The first time the server starts, it automatically generates a self-signed SSL certificate and a private key.
+Because the certificate is self signed, it is not safe to rely on for production use, instead, you should provide your own key and certificate for the server to use.</p><p>To provide your own key and certificate, replace the generated key and certificate, or change the neo4j-server.properties file to set the location of your certificate and key:</p><pre class="programlisting brush: plain"># Certificate location (auto generated if the file does not exist)
+org.neo4j.server.webserver.https.cert.location=ssl/snakeoil.cert
+
+# Private key location (auto generated if the file does not exist)
+org.neo4j.server.webserver.https.key.location=ssl/snakeoil.key</pre><p>Note that the key should be unencrypted.
+Make sure you set correct permissions on the private key, so that only the Neo4j server user can read/write it.</p><p>You can set what port the HTTPS connector should bind to in the same configuration file, as well as turn HTTPS off:</p><pre class="programlisting brush: plain"># Turn https-support on/off
+org.neo4j.server.webserver.https.enabled=true
+
+# https port (for all data, administrative, and UI access)
+org.neo4j.server.webserver.https.port=443</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_server_authorization_rules"></a>28.1.4.&nbsp;Server Authorization Rules</h3></div></div></div><p>Administrators may require more fine-grained security policies in addition to IP-level restrictions on the Web server.  Neo4j server supports
+administrators in allowing or disallowing access the specific aspects of the database based on credentials that users or applications provide.</p><p>To facilitate domain-specific authorization policies in Neo4j Server, <code class="literal"><a class="ulink" href="http://components.neo4j.org/neo4j-server/1.9.2/apidocs/org/neo4j/server/rest/security/SecurityRule.html" target="_top">SecurityRules</a></code> can be implemented and
+registered with the server. This makes scenarios like user and role based security and
+authentication against external lookup services possible.</p><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="ops-enforcing-server-authorization-rules"></a>Enforcing Server Authorization Rules</h4></div></div></div><p>In this example, a (dummy) failing security rule is registered to deny
+access to all URIs to the server by listing the rules class in
+<span class="emphasis"><em>neo4j-server.properties</em></span>:</p><pre class="programlisting brush: plain">org.neo4j.server.rest.security_rules=my.rules.PermanentlyFailingSecurityRule</pre><p>with the rule source code of:</p><pre class="programlisting brush: java">public class PermanentlyFailingSecurityRule implements SecurityRule
+{
+
+    public static final String REALM = "WallyWorld"; // as per RFC2617 :-)
+
+    @Override
+    public boolean isAuthorized( HttpServletRequest request )
+    {
+        return false; // always fails - a production implementation performs
+                      // deployment-specific authorization logic here
+    }
+
+    @Override
+    public String forUriPath()
+    {
+        return "/*";
+    }
+
+    @Override
+    public String wwwAuthenticateHeader()
+    {
+        return SecurityFilter.basicAuthenticationResponse(REALM);
+    }
+}
+</pre><p>With this rule registered, any access to the server will be
+denied. In a production-quality implementation the rule
+will likely lookup credentials/claims in a 3rd-party
+directory service (e.g. LDAP) or in a local database of
+authorized users.</p><p><span class="emphasis"><em>Example request</em></span></p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
+<span class="strong"><strong><code class="literal">POST</code></strong></span>  <code class="literal">http://localhost:7474/db/data/node</code>
+</li><li class="listitem">
+<span class="strong"><strong><code class="literal">Accept:</code></strong></span> <code class="literal">application/json; charset=UTF-8</code>
+</li></ul></div><p><span class="emphasis"><em>Example response</em></span></p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
+<span class="strong"><strong><code class="literal">401:</code></strong></span> <code class="literal">Unauthorized</code>
+</li><li class="listitem">
+<span class="strong"><strong><code class="literal">WWW-Authenticate:</code></strong></span> <code class="literal">Basic realm="WallyWorld"</code>
+</li></ul></div><pre class="programlisting brush: javascript"></pre></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="ops-using-wildcards-to-target-security-rules"></a>Using Wildcards to Target Security Rules</h4></div></div></div><p>In this example, a security rule is registered to deny
+access to all URIs to the server by listing the rule(s) class(es) in
+<span class="emphasis"><em>neo4j-server.properties</em></span>.
+In this case, the rule is registered
+using a wildcard URI path (where <code class="literal">*</code> characters can be used to signify
+any part of the path). For example <code class="literal">/users*</code> means the rule
+will be bound to any resources under the <code class="literal">/users</code> root path. Similarly
+<code class="literal">/users*type*</code> will bind the rule to resources matching
+URIs like <code class="literal">/users/fred/type/premium</code>.</p><pre class="programlisting brush: plain">org.neo4j.server.rest.security_rules=my.rules.PermanentlyFailingSecurityRuleWithWildcardPath</pre><p>with the rule source code of:</p><pre class="programlisting brush: java">public String forUriPath()
+{
+    return "/protected/*";
+}
+</pre><p>With this rule registered, any access to URIs under /protected/ will be
+denied by the server. Using wildcards allows flexible targeting of security rules to
+arbitrary parts of the server’s API, including any unmanaged extensions or managed
+plugins that have been registered.</p><p><span class="emphasis"><em>Example request</em></span></p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
+<span class="strong"><strong><code class="literal">GET</code></strong></span>  <code class="literal">http://localhost:7474/protected/tree/starts/here/dummy/more/stuff</code>
+</li><li class="listitem">
+<span class="strong"><strong><code class="literal">Accept:</code></strong></span> <code class="literal">application/json</code>
+</li></ul></div><p><span class="emphasis"><em>Example response</em></span></p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
+<span class="strong"><strong><code class="literal">401:</code></strong></span> <code class="literal">Unauthorized</code>
+</li><li class="listitem">
+<span class="strong"><strong><code class="literal">WWW-Authenticate:</code></strong></span> <code class="literal">Basic realm="WallyWorld"</code>
+</li></ul></div><pre class="programlisting brush: javascript"></pre></div><div class="section"><div class="titlepage"><div><div><h4 class="title"><a id="ops-using-complex-wildcards-to-target-security-rules"></a>Using Complex Wildcards to Target Security Rules</h4></div></div></div><p>In this example, a security rule is registered to deny
+access to all URIs matching a complex pattern.
+The config looks like this:</p><pre class="programlisting brush: plain">org.neo4j.server.rest.security_rules=my.rules.PermanentlyFailingSecurityRuleWithComplexWildcardPath</pre><p>with the rule source code of:</p><pre class="programlisting brush: java">public class PermanentlyFailingSecurityRuleWithComplexWildcardPath implements SecurityRule
+{
+
+    public static final String REALM = "WallyWorld"; // as per RFC2617 :-)
+
+    @Override
+    public boolean isAuthorized( HttpServletRequest request )
+    {
+        return false;
+    }
+
+    @Override
+    public String forUriPath()
+    {
+        return "/protected/*/something/else/*/final/bit";
+    }
+
+    @Override
+    public String wwwAuthenticateHeader()
+    {
+        return SecurityFilter.basicAuthenticationResponse(REALM);
+    }
+}
+</pre><p><span class="emphasis"><em>Example request</em></span></p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
+<span class="strong"><strong><code class="literal">GET</code></strong></span>  <code class="literal">http://localhost:7474/protected/wildcard_replacement/x/y/z/something/else/more_wildcard_replacement/a/b/c/final/bit/more/stuff</code>
+</li><li class="listitem">
+<span class="strong"><strong><code class="literal">Accept:</code></strong></span> <code class="literal">application/json</code>
+</li></ul></div><p><span class="emphasis"><em>Example response</em></span></p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
+<span class="strong"><strong><code class="literal">401:</code></strong></span> <code class="literal">Unauthorized</code>
+</li><li class="listitem">
+<span class="strong"><strong><code class="literal">WWW-Authenticate:</code></strong></span> <code class="literal">Basic realm="WallyWorld"</code>
+</li></ul></div><pre class="programlisting brush: javascript"></pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_hosted_scripting"></a>28.1.5.&nbsp;Hosted Scripting</h3></div></div></div><div class="important" style="margin-left: 0; margin-right: 10%;"><table border="0" summary="Important"><tbody><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Important]" src="./28.1. Securing access to the Neo4j Server_files/important.png"></td><th align="left">Important</th></tr><tr><td align="left" valign="top"><p>The neo4j server exposes remote scripting functionality by default that allow full access to the underlying system.
+Exposing your server without implementing a security layer poses a substantial security vulnerability.</p></td></tr></tbody></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_security_in_depth"></a>28.1.6.&nbsp;Security in Depth</h3></div></div></div><p>Although the Neo4j server has a number of security features built-in (see the above chapters), for sensitive deployments it is often sensible to front against the outside world it with a proxy like Apache <code class="literal">mod_proxy</code> <sup>[<a id="idp15368080" href="http://docs.neo4j.org/chunked/stable/security-server.html#ftn.idp15368080" class="footnote">2</a>]</sup>.</p><p>This provides a number of advantages:</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p class="simpara">
+Control access to the Neo4j server to specific IP addresses, URL patterns and IP ranges. This can be used to make for instance only the <span class="emphasis"><em>/db/data</em></span> namespace accessible to non-local clients, while the <span class="emphasis"><em>/db/admin</em></span> URLs only respond to a specific IP address.
+</p><pre class="programlisting brush: plain">&lt;Proxy *&gt;
+  Order Deny,Allow
+  Deny from all
+  Allow from 192.168.0
+&lt;/Proxy&gt;</pre></li></ul></div><p>While equivalent functionality can be implemented with Neo4j’s <code class="literal">SecurityRule</code> plugins (see above), for operations professionals configuring servers like Apache is often preferable to developing plugins. However it should be noted that where both approaches are used, they will work harmoniously providing the behavior is consistent across proxy server and <code class="literal">SecurityRule</code> plugins.</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p class="simpara">
+Run Neo4j Server as a non-root user on a Linux/Unix system on a port &lt; 1000 (e.g. port 80) using
+</p><pre class="programlisting brush: plain">ProxyPass /neo4jdb/data http://localhost:7474/db/data
+ProxyPassReverse /neo4jdb/data http://localhost:7474/db/data</pre></li><li class="listitem"><p class="simpara">
+Simple load balancing in a clustered environment to load-balance read load using the Apache <code class="literal">mod_proxy_balancer</code> <sup>[<a id="idp15379504" href="http://docs.neo4j.org/chunked/stable/security-server.html#ftn.idp15379504" class="footnote">3</a>]</sup> plugin
+</p><pre class="programlisting brush: plain">&lt;Proxy balancer://mycluster&gt;
+BalancerMember http://192.168.1.50:80
+BalancerMember http://192.168.1.51:80
+&lt;/Proxy&gt;
+ProxyPass /test balancer://mycluster</pre></li></ul></div></div><div class="footnotes"><br><hr width="100" align="left"><div class="footnote"><p><sup>[<a id="ftn.idp15368080" href="http://docs.neo4j.org/chunked/stable/security-server.html#idp15368080" class="simpara">2</a>] </sup><a class="ulink" href="http://httpd.apache.org/docs/2.2/mod/mod_proxy.html" target="_top">http://httpd.apache.org/docs/2.2/mod/mod_proxy.html</a></p></div><div class="footnote"><p><sup>[<a id="ftn.idp15379504" href="http://docs.neo4j.org/chunked/stable/security-server.html#idp15379504" class="simpara">3</a>] </sup><a class="ulink" href="http://httpd.apache.org/docs/2.2/mod/mod_proxy_balancer.html" target="_top">http://httpd.apache.org/docs/2.2/mod/mod_proxy_balancer.html</a></p></div></div></div>
+
+<div id="neo-disqus-wrapper">
+<div id="neo-disqus-intro"><h4>Asking questions</h4><p>Here's where to ask to get the best answers to your Neo4j questions:</p><div class="itemizedlist"><ul type="disc" class="itemizedlist"><li class="listitem"><em>Having trouble running an example from the manual?</em> First make sure that you're using the same version of Neo4j as the manual was built for! There's a dropdown on all pages that lets you switch to a different version.</li><li class="listitem"><em>Something doesn't work as expected with Neo4j?</em> The stackoverflow.com <a href="http://stackoverflow.com/questions/tagged/neo4j">neo4j tag</a> is an excellent place for this!</li><li class="listitem"><em>Found a bug?</em> Then please report and track it using the GitHub <a href="https://github.com/neo4j/neo4j/issues">Neo4j Issues</a> page. Note however, that you can report <i>documentation bugs</i> using the Disqus thread below as well.</li><li class="listitem"><em>Have a data modeling question or want to participate in discussions around Neo4j and graphs?</em> The <a href="https://groups.google.com/forum/?fromgroups#!forum/neo4j">Neo4j Google Group</a> is a great place for this.</li><li class="listitem"><em>Is 140 characters enough for your question?</em> Then obviously Twitter is an option. There's lots of <a href="https://twitter.com/search?q=neo4j">#neo4j</a> activity there.</li><li class="listitem"><em>Have a question on the content of this page or missing something here?</em> Then you're all set, use the discussion thread below. Please post any comments or suggestions regarding the documentation right here!</li></ul></div></div><div id="disqus_thread" style="margin-right: 295px;"><iframe id="dsq1" data-disqus-uid="1" allowtransparency="true" frameborder="0" role="complementary" width="100%" src="./28.1. Securing access to the Neo4j Server_files/saved_resource.htm" style="width: 100%; border: none; overflow: hidden; height: 1496px;" scrolling="no" horizontalscrolling="no" verticalscrolling="no"></iframe></div></div>
+<script type="text/javascript" src="./28.1. Securing access to the Neo4j Server_files/disqus.js"></script>
+<script type="text/javascript">
+// GA
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1192232-16']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>  
+
+<hr xmlns=""><a xmlns="" href="http://docs.neo4j.org/chunked/stable/ln-idp4438736.html"><p xmlns="http://www.w3.org/1999/xhtml" class="copyright">Copyright © 2013 Neo Technology</p></a><div class="navfooter" style="margin-right: 295px;"><hr><table width="100%" summary="Navigation footer"><tbody><tr><td width="40%" align="left"><a accesskey="p" href="http://docs.neo4j.org/chunked/stable/operations-security.html">Prev</a>&nbsp;</td><td width="20%" align="center"><a accesskey="u" href="http://docs.neo4j.org/chunked/stable/operations-security.html">Up</a></td><td width="40%" align="right">&nbsp;<a accesskey="n" href="http://docs.neo4j.org/chunked/stable/operations-monitoring.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">&nbsp;</td><td width="20%" align="center"><a accesskey="h" href="http://docs.neo4j.org/chunked/stable/index.html">Home</a></td><td width="40%" align="right" valign="top">&nbsp;</td></tr></tbody></table></div>
+</body><div id="sidebar" style="top:180px;width:360px;border-left:none;border-top:none;"><div style="border-bottom: none; padding: 5px 5px 0 5px; float: left; margin-right: 10px; margin-left: 100px;"><a href="http://docs.neo4j.org/chunked/stable/security-server.html#neo-disqus-wrapper"><img title="Ask a question." src="./28.1. Securing access to the Neo4j Server_files/comments.png" alt="" width="70" height="70"> </a></div><div style="border-bottom: none; padding: 5px 5px 0 5px; float: left; margin-right: 10px;"><a href="http://info.neotechnology.com/download-pdf.html?document=1.9.2"><img title="Get a PDF version of this Neo4j Manual." src="./28.1. Securing access to the Neo4j Server_files/pdf.png" alt="" width="70" height="70"></a></div><iframe src="./28.1. Securing access to the Neo4j Server_files/saved_resource(1).htm" id="neotech-sidebar" style="width:360px;height:2100px;" frameborder="0" scrolling="no"></iframe></div></html>

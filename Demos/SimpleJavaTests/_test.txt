@@ -1,0 +1,23 @@
+
+Windows IP Configuration
+
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . : localdomain
+   Link-local IPv6 Address . . . . . : fe80::6815:e902:e754:c343%11
+   IPv4 Address. . . . . . . . . . . : 172.16.108.129
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 172.16.108.2
+
+Tunnel adapter isatap.localdomain:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : localdomain
+
+Tunnel adapter Local Area Connection* 11:
+
+   Connection-specific DNS Suffix  . : 
+   IPv6 Address. . . . . . . . . . . : 2001:0:5ef5:79fb:34b1:389b:53ef:937e
+   Link-local IPv6 Address . . . . . : fe80::34b1:389b:53ef:937e%13
+   Default Gateway . . . . . . . . . : ::
